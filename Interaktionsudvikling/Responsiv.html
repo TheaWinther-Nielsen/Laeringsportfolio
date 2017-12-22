@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Læringsportfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+      
+    <link href="../Css/Style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div class="container">
+         <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../Design/index.html">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="../Design/intro_design.html">Design <span class="sr-only">(current)</span></a></li>
+        <li><a href="../Virksomhed/intro_virksomhed.html">Virksomhed</a></li>
+        <li class="active"><a href="../Interaktionsudvikling/Intro_interaktion.html">Interakstionsudvikling</a></li>
+        <li><a href="../Kommunikation/intro_kommunikation.html">Kommunikation</a></li>   
+        <li><a href="#">Projekt</a></li>
+        <li><a href="#">Reflektioner</a></li>
+        <li><a href="#">Kildehenvisninger</a></li>
+      </ul>
+  
+        
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav> 
+    
+
+    <nav>
+              
+        <ul class="nav nav-tabs">
+            <li role="presentation"><a href="../index.html">Hjem</a></li>
+            <li role="presentation"><a href="Intro_interaktion.html">Intro</a></li>
+            <li role="presentation"><a href="Historie.html">Historie</a></li>
+            <li role="presentation" ><a href="HTML.html">HTML</a></li>
+            <li role="presentation"><a href="Tags.html">Tags</a></li>
+              <li role="presentation"><a href="CSS.html">CSS</a></li>
+            <li role="presentation"><a href="Versionsstyring.html">Versionsstyring</a></li>
+            <li role="presentation"><a href="Grid.html">Grid</a> </li>
+            <li role="presentation" class="active"><a href="Responsiv.html">Responsiv</a></li>
+            <li role="presentation"><a href="Framework.html">Framework</a></li>
+        </ul>          
+          
+    </nav>    
+          
+          
+    <h1>Responsiv</h1>
+          <br>
+            <section>
+                    <p>
+                    Responsive design (kilde Niels responsive I praksis pdf)
+                    Når man laver sit design responsiv, passer sitet til både mobil, tablet og desktop. I dag er det forventet at man laver et responsivet design, da det i dag er lige så normalt at gå på nettet med sin mobil eller tablet som desktop. 
+                    I dag går man ud fra konceptet Mobil first.  
+                    Man designer altså til mobilen først og arbejder så igennem tablet og slutter derefter af med desktop.  
+                    </p>
+          </section>
+          
+    <h3>Media Queries</h3>
+          <sectio>
+              <p>
+                Media queries bruger vi til at angive f.eks. hvilken skærm størrelse der designes til. Det er her vi indsætter breakpoints – breakpoints er den bredde specifikke regel overtager fra den anden,
+                Når man arbejder med en responsiv website har man som minimum 2 breakpoints og gerne flere. 
+
+                @media screen and (max-width: 480px) for mobil.
+                @media screen and (max-width: 768px) for tablet.
+              </p>
+          </sectio>
+          
+    <h3>Viewport</h3>
+          <section>
+              <p>
+                For at få media queries til at fungere skal man huske, at indsætte viewport i sit html dokument. Viewport er et meta-tag, som fortæller mobile enheder at de ikke skal forsøge at skalere sitet. Hvis man undlader det antages det som at man arbejder med desktop, da det er normalen, det vil resultere i at enheden vil prøve at presse en desktop version ned på f.eks. en mobil version. 
+                Meta-tagget placeres i head-tagget. 
+                  <br>
+                    <br>            
+                    &lt;meta name="viewport" content=" width=device-width, initial-scale=1.0"/&gt;
+              </p>
+          </section>
+    
+    
+          
+        <footer> 
+           &copy; Thea Winther-Nielsen, Multimediedesigner, 1 semester Eadania Skive.  
+        </footer>  
+          
+      </div>         
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

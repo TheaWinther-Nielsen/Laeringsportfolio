@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Læringsportfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+      
+    <link href="../Css/Style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div class="container">
+         <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../Design/index.html">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="../Design/intro_design.html">Design <span class="sr-only">(current)</span></a></li>
+        <li><a href="../Virksomhed/intro_virksomhed.html">Virksomhed</a></li>
+        <li class="active"><a href="../Interaktionsudvikling/Intro_interaktion.html">Interakstionsudvikling</a></li>
+        <li><a href="../Kommunikation/intro_kommunikation.html">Kommunikation</a></li>   
+        <li><a href="#">Projekt</a></li>
+        <li><a href="#">Reflektioner</a></li>
+        <li><a href="#">Kildehenvisninger</a></li>
+      </ul>
+  
+        
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav> 
+    
+
+    <nav>
+              
+        <ul class="nav nav-tabs">
+            <li role="presentation"><a href="../index.html">Hjem</a></li>
+            <li role="presentation"><a href="Intro_interaktion.html">Intro</a></li>
+            <li role="presentation"><a href="Historie.html">Historie</a></li>
+            <li role="presentation" class="active" ><a href="HTML.html">HTML</a></li>
+            <li role="presentation"><a href="Tags.html">Tags</a></li>
+              <li role="presentation"><a href="CSS.html">CSS</a></li>
+            <li role="presentation"><a href="Versionsstyring.html">Versionsstyring</a></li>
+           <li role="presentation"><a href="Grid.html">Grid</a> </li>
+            <li role="presentation"><a href="Responsiv.html">Responsiv</a></li>
+            <li role="presentation"><a href="Framework.html">Framework</a></li>
+            
+       
+        </ul>          
+          
+    </nav>    
+          
+          
+    <h1> HTML</h1>
+          
+       <section>
+           
+            <p>
+            HTML også kendt som Hypertext Markup Language. <br>
+            HTML er grundstenene for en website, det strukturerer hjemmesidens indhold. <br> HTML består af forskellige tags som fremføre arbejdet for hvad der skal ske med teksten, det bruges til at indsætte både links og billeder. <br> Man starter altid med et starttag &lt &gt; og afslutter så tagget med et lukketag &lt;/&gt;. <br>Tags kan kun ses på selve html dokumentet, og ikke på selve websiden. <br> <br>
+
+            Når man arbejder i et html dokument er det vigtigt at tilknytte kommentarer &lt;! -- --&gt;, <br>det gør det nemmere for andre at forstå tanken bag de forskellige valg man har taget. <br> <br>
+
+            Editor program <br>
+            Er det program hvor html, Css og javascript skrives i. <br> Der findes mange forskellige editor programmer man kan benytte, Notepade++, Edge Code, Brackets osv. <br>
+            Nogle editorprogrammer giver mulighed for at se resultatet i browseren Chrome <br> via. live-view samtidig med at du arbejder med det, WYSIWYG/What You See Is What You Get. Det  
+            </p>
+        </section> 
+         
+    <h3>Grundlæggende HTML</h3>
+          
+          <section>
+                <p>
+                Opbygning (kilde Niels pdf intro til html) <br>
+                Et html dokument er opbygget af flere elementer.  Til at starte med gør man det klart at der er tale om et html dokument. <br>  Efter det er gjort indsættes html tagget som indikere at det følgende tekst er html kode. <br> Når det er gjort kommer head-tagget, det er her title, meta-tags og link til stylesheet indsættes. <br> Efter det body, som er det sted hvor alt indholdet til sitet er, alt det der kan ses er. <br> <br>
+
+                <!DOCTYPE HTML> - indikere at det er et html dokument. 
+                html – fortæller at den kommende tekst er html kode, wrapper omkring det resterende.  Her indsættes attributten med sprog. 
+                Head – indeholder title, meta-tags og link til stylesheet.  
+                Body – her er indholdet af siden, det man ser på selve sitet. 
+                </p>
+              
+          </section>
+                <br>
+          <section>
+              <p>
+                Links <br>
+                Links på et website er et godt hjælpemiddel til at navigere rundt på sitet  eller give mulighed til at springe til et andet website.  Den tekst som står imellem start-tagget og slut-tagget er det der på sitet vil forekomme klikbare. 
+              </p>
+          
+          </section>
+          
+          <section>
+              <p>
+              Billeder: <br>
+                Billeder angives med et img-tag, det fortæller browseren at det der arbejdes med er et billede. I img-tagget bruges src attributten, hvor det valgte billede findes frem. Når man indsætter et img-tag i html dokumentet er det vigtigt at huske alt=””, da den del bruges hvis billedet af en eller anden grund ikke kan blive vist på sitet, i denne situation vil det nemlig være alt: billede teksten der kommer frem. 
+                Man skal sørge for at filen på billedet ikke er for stor, da det vil resultere i at sitet loader langsomt.
+              </p>
+          </section>
+          
+        
+   
+        <footer> 
+           &copy; Thea Winther-Nielsen, Multimediedesigner, 1 semester Eadania Skive. 
+        </footer>  
+          
+      </div>         
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

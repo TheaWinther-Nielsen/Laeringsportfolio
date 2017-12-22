@@ -1,0 +1,224 @@
+
+/***********************************Mobil *************************************/
+
+header {
+    text-align: center;
+    background-color: #e1dbdc;
+    
+}
+
+#body {
+    font-family:sans-serif; 
+    display: grid;
+    grid-template-columns: fr1, fr1 fr1 fr1 fr1;   
+       
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 23px; 
+}
+/*****************header*****************/
+#header {
+    background-color: skyblue;
+    padding-top: 10px;
+    height: 50px;
+    text-align: center;
+}
+
+/*****************footer*****************/
+footer {
+    text-align: center; 
+    background-color: dodgerblue;
+    font-size: 13px;
+}
+
+/********************Design*******************/
+/*********FOTO********/
+#hoejblaende {
+    width: 200px;
+    height:auto;
+    
+}
+
+#lavblaende {
+    width: 200px;
+    height: auto;
+}
+
+#blaendemodel {
+    width: 300px;
+    height: auto;
+}
+
+#lukketid {
+    width: 300px;
+    height: auto;
+}
+
+#isostøj {
+    width: 320px;
+    height: auto;
+}
+
+#bridge {
+    width: 330px;
+    height: auto;
+}
+
+#cameraraw {
+    width: 330px;
+    height: auto;
+}
+
+#photoshop {
+    width: 330px;
+    height: auto;
+}
+
+/********farver********/
+#farvehjuloelse {
+    width: 300px;
+    height: auto;
+}
+
+#maetning {
+    width: 300px;
+    height:auto;
+}
+
+
+
+/**********Typografi*********/
+
+
+#typo{
+    width: 400px;
+    height: auto;
+}
+#serif {
+    width: 300px;
+    height: auto; 
+}
+
+#sanserif {
+    width: 300px;
+    height: auto;
+}
+
+#haandskrift {
+    width: 280px;
+    height: auto;
+}
+
+#Fantasy{
+    width: 280px;
+    height: auto;
+}
+/**********************Virksomhed*******************/
+
+
+/******************-kommunikation*****************/
+
+/*********Kommunikationsstrategi*******/
+#kotler {
+    width: 320px;
+    height: auto;
+}
+
+#IMK {
+    width: 300px;
+    height: auto;
+}
+
+/********film/visuel kommunikation*****/
+#moodboard{
+    width: 300px;
+    height: auto;
+    
+}
+/************Produktionsmodeller******/
+
+#bollemodellen {
+    width: 300px;
+    height: auto;
+}
+
+
+/********************Visualiseringsværktøj**************/
+
+#Tandpasta {
+    width: 300px;
+    height: auto;
+    display: none;
+}
+
+#Paere {
+    width: 250px;
+    height: auto;
+    
+}
+
+#Dame {
+    width: 300px;
+    height: auto;
+}
+
+#Typografi {
+    width: 300px;
+    height: auto;
+    display: none;
+}
+
+#Rikke {
+    width: 250px;
+    height: auto;
+}
+
+
+
+/**************************************************Tablet***********************************************************/
+
+@media screen and (min-width: 768px) {
+    
+/**********************Design*********************/    
+/*************FOTO**************/
+    #hoejblaende {
+        width: 300px;
+        height: auto;
+    }
+    
+    
+    #lavblaende {
+        width: 300px;
+        height: auto; 
+    }
+    
+    #blaendemodel {
+        width: 600px;
+        height: auto;
+    }
+    
+    #lukketid {
+        width: 600px;
+        height: auto;
+    }
+
+    
+
+}
+
+
+
+
+
+
+/*****************************************************Desktop***********************************************************/
+
+@media screen and (min-width:1024px) {
+    
+}
