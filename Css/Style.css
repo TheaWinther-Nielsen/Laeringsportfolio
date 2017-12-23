@@ -91,6 +91,10 @@ footer {
     height:auto;
 }
 
+#hjul{
+    width: 200px;
+    height: auto;
+}
 
 
 /**********Typografi*********/
@@ -188,11 +192,24 @@ footer {
 #tegningprototype {
     width: 300px;
     height: auto;
+    display: none; 
 }
 
+
+/*********OnePage*******/
+
+#foestescrum {
+    width: 300px;
+    height: auto;
+}
+
+#blaabaermoodboard {
+    width: 200px;
+    height: auto;
+}
 /**************************************************Tablet***********************************************************/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
     
 /**********************Design*********************/    
 /*************FOTO**************/
@@ -223,8 +240,13 @@ footer {
 
 
 
+/******************Projekter************/
 
+/*******Prototype*********/
 
+#tegningprototype {
+    
+}
 
 /*****************************************************Desktop***********************************************************/
 
