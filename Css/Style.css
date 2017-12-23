@@ -96,6 +96,15 @@ footer {
     height: auto;
 }
 
+#RGB {
+    width: 200px;
+    height: auto;
+}
+
+#CMYK {
+    width: 200px;
+    height: auto;
+}
 
 /**********Typografi*********/
 
@@ -121,6 +130,20 @@ footer {
 
 #Fantasy{
     width: 280px;
+    height: auto;
+}
+
+/*********Programmer*****/
+
+
+
+
+
+
+
+
+#oelforside {
+    width: 200px;
     height: auto;
 }
 /**********************Virksomhed*******************/
