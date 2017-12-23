@@ -37,7 +37,7 @@ footer {
     font-size: 13px;
 }
 
-/********************Design*******************/
+/************************************Design*********************************/
 /*********FOTO********/
 #hoejblaende {
     width: 200px;
@@ -110,7 +110,7 @@ footer {
 
 
 #typo{
-    width: 400px;
+    width: 345px;
     height: auto;
 }
 #serif {
@@ -138,18 +138,46 @@ footer {
 
 
 
-
+#celticcross {
+    width: 300px;
+    height: auto;
+}
 
 
 
 #oelforside {
-    width: 200px;
+    width: 300px;
     height: auto;
 }
-/**********************Virksomhed*******************/
+/********************************Virksomhed*******************************/
+
+/*******grundlag virksomhed****/
+
+#vaedikaeden{
+    width: 410px;
+    height: auto;
+}
+
+/****forretningsmodel og plan***/
+
+#businessmodel {
+    width: 300px;
+    height: auto;
+}
 
 
-/*************************kommunikation*******************/
+/****************************Interaktionsudvikling************************/
+
+/*********Historie*********/
+
+#helloworldcode {
+    width: 300px;
+    height: auto;
+}
+
+
+
+/*********************************kommunikation****************************/
 
 /*********Kommunikationsstrategi*******/
 #kotler {
