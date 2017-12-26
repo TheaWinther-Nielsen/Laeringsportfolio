@@ -82,6 +82,10 @@
             HTML er grundstenene for en website, det strukturerer hjemmesidens indhold. <br> HTML består af forskellige tags som fremføre arbejdet for hvad der skal ske med teksten, det bruges til at indsætte både links og billeder. <br> Man starter altid med et starttag &lt &gt; og afslutter så tagget med et lukketag &lt;/&gt;. <br>Tags kan kun ses på selve html dokumentet, og ikke på selve websiden. <br> <br>
 
             Når man arbejder i et html dokument er det vigtigt at tilknytte kommentarer &lt;! -- --&gt;, <br>det gør det nemmere for andre at forstå tanken bag de forskellige valg man har taget. <br> <br>
+                
+                <img id="htmlelement" src="../Billeder/htmlelement.jpg" alt="Eksempel på et HTML element"> <!-- billede fra Niels pdf "intro til html"-->
+                <br>
+                <br>
 
             Editor program <br>
             Er det program hvor html, Css og javascript skrives i. <br> Der findes mange forskellige editor programmer man kan benytte, Notepade++, Edge Code, Brackets osv. <br>
@@ -93,13 +97,15 @@
           
           <section>
                 <p>
-                Opbygning (kilde Niels pdf intro til html) <br>
+                Opbygning <!--(kilde Niels pdf intro til html)--> <br>
                 Et html dokument er opbygget af flere elementer.  Til at starte med gør man det klart at der er tale om et html dokument. <br>  Efter det er gjort indsættes html tagget som indikere at det følgende tekst er html kode. <br> Når det er gjort kommer head-tagget, det er her title, meta-tags og link til stylesheet indsættes. <br> Efter det body, som er det sted hvor alt indholdet til sitet er, alt det der kan ses er. <br> <br>
 
-                <!DOCTYPE HTML> - indikere at det er et html dokument. 
-                html – fortæller at den kommende tekst er html kode, wrapper omkring det resterende.  Her indsættes attributten med sprog. 
-                Head – indeholder title, meta-tags og link til stylesheet.  
-                Body – her er indholdet af siden, det man ser på selve sitet. 
+                &lt;!DOCTYPE HTML&gt; indikere at det er et html dokument. <br>
+                &lt;html&gt; fortæller at den kommende tekst er html kode, wrapper omkring det resterende.  Her indsættes attributten med sprog.<br>
+                &lt;Head&gt; indeholder title, meta-tags og link til stylesheet.  <br>
+                &lt;Body&gt; her er indholdet af siden, det man ser på selve sitet. <br>
+                    
+                <img id="introhtml" src="../Billeder/Intro%20til%20HTML.jpg" alt="Basis html">
                 </p>
               
           </section>
@@ -108,6 +114,10 @@
               <p>
                 Links <br>
                 Links på et website er et godt hjælpemiddel til at navigere rundt på sitet  eller give mulighed til at springe til et andet website.  Den tekst som står imellem start-tagget og slut-tagget er det der på sitet vil forekomme klikbare. 
+                  <br>
+                  <br>
+                  
+                  &lt;a href:www.facebook.com&gt;Facebook&lt;/a&gt;
               </p>
           
           </section>
@@ -116,7 +126,9 @@
               <p>
               Billeder: <br>
                 Billeder angives med et img-tag, det fortæller browseren at det der arbejdes med er et billede. I img-tagget bruges src attributten, hvor det valgte billede findes frem. Når man indsætter et img-tag i html dokumentet er det vigtigt at huske alt=””, da den del bruges hvis billedet af en eller anden grund ikke kan blive vist på sitet, i denne situation vil det nemlig være alt: billede teksten der kommer frem. 
-                Man skal sørge for at filen på billedet ikke er for stor, da det vil resultere i at sitet loader langsomt.
+                Man skal sørge for at filen på billedet ikke er for stor, da det vil resultere i at sitet loader langsomt. <br>
+                  <br>
+                  &lt;img scr="JPG" alt="billede tekst"&gt;
               </p>
           </section>
           

@@ -135,7 +135,10 @@ footer {
 
 /*********Programmer*****/
 
-
+#bruno {
+    width: 250px;
+    height: auto;
+}
 
 
 #celticcross {
@@ -165,6 +168,12 @@ footer {
     height: auto;
 }
 
+/*********creativecommons*****/
+
+#creativecommons {
+    width: 330px;
+    height: auto;
+}
 
 /****************************Interaktionsudvikling************************/
 
@@ -175,8 +184,49 @@ footer {
     height: auto;
 }
 
+/**********HTML***********/
+
+#htmlelement {
+    width: 300px;
+    height: auto;
+}
+
+#introhtml {
+    width: 330px;
+    height: auto;
+}
 
 
+/*********CSS********/
+
+#css {
+    width: 320px;
+    height: auto;
+}
+
+#boxmodel{
+    width: 320px;
+    height: auto;
+}
+
+/******Grid*******/
+
+#gridcss {
+    width: 300px;
+    height: auto;
+}
+
+#Gridresualtat {
+    width: 400px;
+    height: auto;
+}
+
+/*******framework******/
+
+#bootstrap {
+    width: 320px;
+    height: auto;
+}
 /*********************************kommunikation****************************/
 
 /*********Kommunikationsstrategi*******/
