@@ -39,6 +39,21 @@ footer {
 
 /************************************Design*********************************/
 /*********FOTO********/
+
+#wapper {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-area: 
+        "blaende    blaende"
+        "lukketid   lukketid"
+        "iso    iso"
+        "eksponering    eksponering"
+        "workflow   workflow"
+        "billedekompo   billedekompo"
+       
+}
+
+
 #hoejblaende {
     width: 200px;
     height:auto;
@@ -66,17 +81,17 @@ footer {
 }
 
 #bridge {
-    width: 330px;
+    width: 320px;
     height: auto;
 }
 
 #cameraraw {
-    width: 330px;
+    width: 320px;
     height: auto;
 }
 
 #photoshop {
-    width: 330px;
+    width: 320px;
     height: auto;
 }
 
@@ -171,7 +186,7 @@ footer {
 /*********creativecommons*****/
 
 #creativecommons {
-    width: 330px;
+    width: 320px;
     height: auto;
 }
 
@@ -192,7 +207,7 @@ footer {
 }
 
 #introhtml {
-    width: 330px;
+    width: 320px;
     height: auto;
 }
 
@@ -236,6 +251,14 @@ footer {
 }
 
 #IMK {
+    width: 300px;
+    height: auto;
+}
+
+
+/************Design Thinking**********/
+
+#divergent {
     width: 300px;
     height: auto;
 }
