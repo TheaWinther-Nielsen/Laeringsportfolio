@@ -95,7 +95,7 @@ footer {
     height: auto;
 }
 
-/********farver********/
+/************farver********/
 #farvehjuloelse {
     width: 300px;
     height: auto;
@@ -118,6 +118,60 @@ footer {
 
 #CMYK {
     width: 200px;
+    height: auto;
+}
+
+
+
+/******gestaltlove*******/
+
+#simplicity {
+    width: 300px;
+    height: auto;
+}
+
+#figureground {
+    width: 300px;
+    height: auto;
+}
+
+#proimity{
+    width: 300px;
+    height: auto;
+}
+
+#continuinity{
+    width: 300px;
+    height: auto;
+}
+
+#ruleofthirds{
+    width: 300px;
+    height: auto;
+}
+
+#closure{
+    width: 300px;
+    height: auto;
+}
+
+#symmertry{
+    width: 300px;
+    height: auto;
+}
+
+#whitespace {
+    width: 300px;
+    height: auto;
+}
+
+#goldensection{
+    width: 300px;
+    height: auto;
+}
+
+#gridgestaltloven{
+    width: 300px;
     height: auto;
 }
 
@@ -164,6 +218,18 @@ footer {
 
 
 #oelforside {
+    width: 300px;
+    height: auto;
+}
+
+/***********video******/
+
+#beskaeringer {
+    width: 320px;
+    height: auto;
+}
+
+#perspektiv{
     width: 300px;
     height: auto;
 }
@@ -270,6 +336,11 @@ footer {
 }
 
 /********film/visuel kommunikation*****/
+
+#storyboard1{
+    width: 300px;
+    height: auto;
+}
 #moodboard{
     width: 300px;
     height: auto;
@@ -337,6 +408,11 @@ footer {
     width: 200px;
     height: auto;
 }
+
+
+
+
+
 /**************************************************Tablet***********************************************************/
 
 @media screen and (min-width:768px) {
