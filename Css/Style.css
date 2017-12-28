@@ -95,6 +95,38 @@ footer {
     height: auto;
 }
 
+
+/*****intro*****/
+
+.first-slide {
+    width: 210px;
+    height: auto;
+}
+
+
+.forth-slide{
+    width: 500px;
+    height: auto;
+} 
+
+.fifth-slide{
+    width: 600px;
+    height: auto;
+}
+.Sixth-slide{
+    width: 300px;
+    height: auto;
+}
+
+.Seventh-slide{
+    width: 500px;
+    height: auto;
+}
+
+.Eighth-slide{
+    width: 400px;
+    height: auto;
+}
 /************farver********/
 #farvehjuloelse {
     width: 300px;
@@ -235,6 +267,10 @@ footer {
 }
 /********************************Virksomhed*******************************/
 
+/*****intro virksomhed******/
+
+
+}
 /*******grundlag virksomhed****/
 
 #vaedikaeden{
@@ -256,6 +292,12 @@ footer {
     height: auto;
 }
 
+/******Lovgivning*****/
+
+#lovgivingbog{
+    width: 300px;
+    height: auto;
+}
 /****************************Interaktionsudvikling************************/
 
 /*********Historie*********/
@@ -381,6 +423,41 @@ footer {
 
 #Rikke {
     width: 250px;
+    height: auto;
+}
+
+
+/**********Informationsarkitektur********/
+
+#sekvens{
+    width: 300px;
+    height: auto;
+}
+
+#hierarki{
+    width: 300px;
+    height: auto;
+}
+
+#webstruktur{
+    width: 300px;
+    height: auto;
+}
+
+#allestrukturer{
+    width: 300px;
+    height: auto;
+}
+
+#wireframe{
+    width: 300px;
+    height: auto;
+}
+
+/*****Ide gernering*******/
+
+#eksmindmap{
+    width: 300px;
     height: auto;
 }
 
