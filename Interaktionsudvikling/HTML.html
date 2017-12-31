@@ -73,31 +73,31 @@
     </nav>    
           
           
-    <h1> HTML</h1>
+    
           
-       <section>
-           
-            <p>
+    <section id="html">
+        <h1 id="ht"> HTML</h1>
+            <p id="hyper">
             HTML også kendt som Hypertext Markup Language. <br>
             HTML er grundstenene for en website, det strukturerer hjemmesidens indhold. <br> HTML består af forskellige tags som fremføre arbejdet for hvad der skal ske med teksten, det bruges til at indsætte både links og billeder. <br> <br>
             Man starter altid med et starttag &lt; &gt; og afslutter så tagget med et lukketag &lt;/&gt;. <br>Tags kan kun ses på selve html dokumentet, og ikke på selve websiden. <br> <br>
 
             Når man arbejder i et html dokument er det vigtigt at tilknytte kommentarer &lt;! -- --&gt;, <br>det gør det nemmere for andre at forstå tanken bag de forskellige valg man har taget. <br> <br>
-                
+            </p>   
                 <img id="htmlelement" src="../Billeder/htmlelement.jpg" alt="Eksempel på et HTML element"> <!-- billede fra Niels pdf "intro til html"-->
                 <br>
-                <br>
-
+                
+        
+            <p id="edit">
             Editor program <br>
             Er det program hvor html, Css og javascript skrives i. <br> Der findes mange forskellige editor programmer man kan benytte, Notepade++, Edge Code, Brackets osv. <br>
-            Nogle editorprogrammer giver mulighed for at se resultatet i browseren Chrome <br> via. live-view samtidig med at du arbejder med det, WYSIWYG/What You See Is What You Get. Det  
+            Nogle editorprogrammer giver mulighed for at se resultatet i browseren Chrome <br> via. live-view samtidig med at du arbejder med det, WYSIWYG/What You See Is What You Get. 
             </p>
         </section> 
          
-    <h3>Grundlæggende HTML</h3>
-          
-          <section>
-                <p>
+          <section id="grundlaeg">
+              <h3 id="grundlae">Grundlæggende HTML</h3>
+                <p id="opbyg">
                 Opbygning <!--(kilde Niels pdf intro til html)--> <br>
                 Et html dokument er opbygget af flere elementer.  Til at starte med gør man det klart at der er tale om et html dokument. <br>  Efter det er gjort indsættes html tagget som indikere at det følgende tekst er html kode. <br> Når det er gjort kommer head-tagget, det er her title, meta-tags og link til stylesheet indsættes. <br> Efter det body, som er det sted hvor alt indholdet til sitet er, alt det der kan ses er. <br> <br>
 
@@ -105,14 +105,13 @@
                 &lt;html&gt; fortæller at den kommende tekst er html kode, wrapper omkring det resterende.  Her indsættes attributten med sprog.<br>
                 &lt;Head&gt; indeholder title, meta-tags og link til stylesheet.  <br>
                 &lt;Body&gt; her er indholdet af siden, det man ser på selve sitet. <br>
-                    
+                </p>   
                 <img id="introhtml" src="../Billeder/Intro%20til%20HTML.jpg" alt="Basis html">
-                </p>
               
           </section>
                 <br>
-          <section>
-              <p>
+          <section id="links">
+              <p id="link">
                 Links <br>
                 Links på et website er et godt hjælpemiddel til at navigere rundt på sitet  eller give mulighed til at springe til et andet website.  Den tekst som står imellem start-tagget og slut-tagget er det der på sitet vil forekomme klikbare. 
                   <br>
@@ -121,10 +120,8 @@
                   &lt;a href:www.facebook.com&gt;Facebook&lt;/a&gt;
               </p>
           
-          </section>
           
-          <section>
-              <p>
+              <p id="billed">
               Billeder: <br>
                 Billeder angives med et img-tag, det fortæller browseren at det der arbejdes med er et billede. I img-tagget bruges src attributten, hvor det valgte billede findes frem. Når man indsætter et img-tag i html dokumentet er det vigtigt at huske alt=””, da den del bruges hvis billedet af en eller anden grund ikke kan blive vist på sitet, i denne situation vil det nemlig være alt: billede teksten der kommer frem. 
                 Man skal sørge for at filen på billedet ikke er for stor, da det vil resultere i at sitet loader langsomt. <br>
@@ -133,8 +130,8 @@
               </p>
           </section>
           
-        <section>
-            <p>
+        <section id="lister">
+            <p id="list">
             Lister: <br>
             I html er der forskellige måder at lave en liste, man kan vælge at lave en ordered list eller unordered list. Forskellen på de 2 lister er at ordered list opstiller med tal og bruges når rækkefølgen er vigtig og tingene skal stå på en bestemt måde, <br>
                  &lt;ol&gt; <br>
@@ -146,22 +143,23 @@
                 &lt;ul&gt;
             </p>
             <br>
-            Ordered list
-                <ol>
+            <p id="olist">Ordered list</p>
+                <ol id="orden">
                     <li>Indhold</li>
                 
                 </ol>
             <br>
-            Unordered list
-                <ul>
+            <p id="ulist">Unordered list</p>
+                <ul id="uorden">
                     <li>Indhold</li>
             
                 </ul>
-            </section>
+        </section>
           
-    <h3>Validering</h3>      
-        <section>
-            <p>
+         
+    <section id="validering">
+        <h3 id="vali">Validering</h3> 
+            <p id="valide">
             Validering bruges til at tjekke om ens html dokument overholder de standarder der er sat.
             Og kan hjælpe med til at gøre en opmærksom på eventuelle fejl. Dette kan gøres
             via. nedstående link.
