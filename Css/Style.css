@@ -38,13 +38,13 @@ footer {
 
 
 
+/*************************************************************************************************************/
+/**********************************************************Design*********************************************/
+/*************************************************************************************************************/
 
-/***************************************************Design******************************************/
-/***************************************************************************************************/
 
-
-/***********************FOTO**********************/
-/*************************************************/
+/*******************************FOTO*************************/
+/************************************************************/
 
 
 /**********Blænde grid*********/
@@ -299,8 +299,8 @@ footer {
 
 
 
-/********************Designintro***********/
-/*****************************************/
+/*****************************Designintro********************/
+/************************************************************/
 
 .first-slide {
     width: 210px;
@@ -334,8 +334,8 @@ footer {
 
 
 
-/***********************farver***************/
-/********************************************/
+/******************************farver*************************/
+/*************************************************************/
 
 
 #farvewrap{
@@ -419,8 +419,8 @@ footer {
 
 
 
-/********************gestaltlove***************/
-/*********************************************/
+/***************************gestaltlove************************/
+/**************************************************************/
 
 /******gestaltlove grid*******/
 
@@ -630,10 +630,10 @@ footer {
 }
 
 
-/**********************************Typografi*********************/
-/****************************************************************/
+/**********************************Typografi*************************/
+/********************************************************************/
 
-/*******************typografi grid***************/
+/***************typografi grid***************/
 
 #typografi{
     display: grid;
@@ -711,7 +711,7 @@ footer {
 }
 
 
-/**********bileder*********/
+/**********billeder*********/
 #typo{
     width: 330px;
     height: auto;
@@ -757,8 +757,8 @@ footer {
 
 
 
-/**************************Programmer***********************/
-/***********************************************************/
+/*****************************Programmer**************************/
+/*****************************************************************/
 
 
 /***programmer grid***/
@@ -886,7 +886,9 @@ footer {
     grid-area: j3;
 }
 
-/*********************video******************/
+
+/****************************video*********************/
+/******************************************************/
 
 /****video grid*****/
 
@@ -1023,15 +1025,20 @@ footer {
 }
 
 
-
-/***********************************************Virksomhed*************************************/
-/**********************************************************************************************/
-
-/*****intro virksomhed******/
+/************************************************************************************************************/
+/*******************************************************Virksomhed*******************************************/
+/************************************************************************************************************/
 
 
 
-/***********grundlag virksomhed********/
+
+/***********************intro virksomhed****************/
+/*******************************************************/
+
+
+
+/******************grundlag virksomhed*****************/
+/******************************************************/
 
 #virksomhed{
     display: grid;
@@ -1097,7 +1104,8 @@ footer {
 
 
 
-/*********************************************************************************************************************************forretningsmodel og plan******/
+/********************************forretningsmodel og plan*************/
+/*********************************************************************/
 
 
 
@@ -1117,6 +1125,7 @@ footer {
 
 
 /*********************************Licens*******************************/
+/*********************************************************************/
 
 /********Licens grid********/
 
@@ -1173,6 +1182,7 @@ footer {
 
 
 /********************************creativecommons***********************/
+/**********************************************************************/
 
 /*****creative commons***/
 
@@ -1256,6 +1266,7 @@ footer {
 
 
 /**********************************Lovgivning**************************/
+/**********************************************************************/
 
 
 /****ophavsret grid***/
@@ -1375,6 +1386,7 @@ footer {
     grid-area: o3;
 }
 
+
 /*******personlig grid****/
 
 #personlighedsret{
@@ -1401,18 +1413,18 @@ footer {
 
 
 
-
-/********************************Interaktionsudvikling********************************/
-/*************************************************************************************/
-
-
+/*****************************************************************************************************/
+/*****************************************Interaktionsudvikling***************************************/
+/*****************************************************************************************************/
 
 
 
 
 
-/****************Historie****************/
 
+
+/**************************Historie******************/
+/****************************************************/
 
 /***********historie grid**********/
 
@@ -1540,7 +1552,8 @@ footer {
     height: auto;
 }
 
-/******************HTML*****************/
+/***************************HTML*************************/
+/*******************************************************/
 
 
 /*******html******/
@@ -1687,7 +1700,8 @@ footer {
 
 
 
-/*****************Tags***************/
+/*****************************Tags**************************/
+/***********************************************************/
 
 /********tags grid*******/
 
@@ -1715,7 +1729,8 @@ footer {
 }
 
 
-/********semantiske tags********/
+/*************************semantiske tags*******************/
+/***********************************************************/
 
 #semantiske{
     display: grid;
@@ -1785,152 +1800,1743 @@ footer {
 #afleveringhtml{
     grid-area: r26;
 }
-/*********************CSS*******************/
-/*******************************************/
 
+/***********************************CSS**************************/
+/****************************************************************/
+
+/***cascading styke sheet grid***/
+
+#csss{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas: 
+        "r27    r27 r27"
+        "r28    r28 r28"
+        "r29    r29 r29"
+        "r30    r30 r30"
+}
+
+#cssoverskrift{
+    grid-area: r27;
+}
+
+#cascading{
+    grid-area: r28;
+}
+
+#style{
+    grid-area: r29;
+}
+
+
+
+/*************Selectors*********/
+
+#selector{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas: 
+        "r31    r31 r31"
+        "r32    r32 r32"
+        "r33    r33 r33"
+}
+
+#select{
+    grid-area: r31;
+}
+
+#IDclass{
+    grid-area: r32;
+}
+
+#hvisderarbejdes{
+    grid-area: r33;
+}
+
+
+/***********Box model grid*******/
+
+#boks{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "r34    r34 r34"
+        "r35    r35 r35"
+        "r36    r36 r36"
+ 
+}
+ 
+#Boxm{
+    grid-area: r34;
+}
+
+#brugicss{
+    grid-area: r35;
+}
+
+
+/**********skrifttyper**********/
+
+#skriftcss{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "r37    r37 r37"
+        "r38    r38 r38"
+}
+
+#cssskriftyp{
+    grid-area: r37;
+}
+
+#computer{
+    grid-area: r38;
+}
+
+
+
+/*****billeder*****/
 #css {
     width: 320px;
     height: auto;
+    grid-area: r30;
 }
 
 #boxmodel{
     width: 320px;
     height: auto;
+    grid-area: r36;
 }
 
-/******Grid*******/
 
+/***********************Versionsstyring*******************/
+/*********************************************************/
+
+
+/*****versionsstyring grid*****/
+
+#versionsstyr{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "r39    r39 r39"
+        "r40    r40 r40"
+        
+}
+
+#versions{
+    grid-area: r39;
+}
+
+
+#version{
+    grid-area: r40;
+}
+
+
+/****git og github grid*****/
+
+#gitog{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas: 
+        "r41    r41 r41"
+        "r42    r42 r42"
+        "r43    r43 r43"
+}
+
+
+#github{
+    grid-area: r41;
+}
+
+
+#git{
+    grid-area: r42;
+}
+
+
+#repos{
+    grid-area: r43;
+}
+/******************************Grid********************/
+/******************************************************/
+
+/****** grid til grid******/
+
+#grid{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1frf,1fr,fr1;
+    grid-template-areas: 
+        "r44    r44 r44"
+        "r45    r45 r45"
+        "r46    r46 r46"
+        "r47    r47 r47"
+}
+
+
+#gri{
+    grid-area: r44;
+}
+
+
+#gridtager{
+    grid-area: r45;
+}
+
+
+/******billeder*******/
 #gridcss {
-    width: 300px;
+    width: 320px;
     height: auto;
+    grid-area: r46;
 }
 
 #Gridresualtat {
-    width: 400px;
+    width: 320px;
     height: auto;
+    grid-area: r47;
 }
 
-/*******framework******/
 
+/****************************Responsiv********************/
+/********************************************************/
+
+#responsiv{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,fr1;
+    grid-template-areas: 
+        "r48    r48 r48"
+        "r49    r49 r49"
+}
+
+
+#respons{
+    grid-area: r48;
+}
+
+
+#respo{
+    grid-area: r49;
+}
+
+/**********Media queries**********/
+
+#mediaqueri{
+   display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,fr1;
+    grid-template-areas: 
+        "r50    r50 r50"
+        "r51    r51 r51"
+}
+
+
+#mediaquer{
+    grid-area: r50;
+}
+
+#mediaq{
+    grid-area: r51;
+}
+
+
+/*********viewport***********/
+
+#viewport{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,fr1;
+    grid-template-areas: 
+        "r52    r52 r52"
+        "r53    r53 r53"
+}
+
+#view{
+    grid-area: r52;
+}
+
+#foratfaa{
+    grid-area: r53;
+}
+
+
+/***********************framework***************/
+/***********************************************/
+
+
+/*********framework grid**********/
+
+#framework{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,fr1;
+    grid-template-areas: 
+        "r54    r54 r54"
+        "r55    r55 r55"
+}
+
+
+
+#frame{
+    grid-area: r54;
+}
+
+
+#fworker{
+    grid-area: r55;
+}
+
+
+#bootstrapp{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,fr1;
+    grid-template-areas: 
+        "r56    r56 r56"
+        "r59    r59 r59"
+        "r57    r57 r57"
+        "r58    r58 r58"
+}
+
+
+#boostra{
+    grid-area: r59;
+}
+
+#boots{
+    grid-area: r57;
+}
+
+#mobilerxs{
+    grid-area: r58;
+}
+
+
+/*******billeder******/
 #bootstrap {
     width: 320px;
     height: auto;
+    grid-area: r56;
 }
-/************************************kommunikation*********************************/
-/**********************************************************************************/
+
+
+/*************************************************************************************************/
+/******************************************kommunikation******************************************/
+/*************************************************************************************************/
 
 /*********Kommunikationsstrategi*******/
+
+/****stategi og kotler grid**/
+
+#kommunikation{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas: 
+        "q0 q0  q0"
+        "q1 q1  q1"
+}
+
+#strategi{
+    grid-area: q0;
+}
+
+#mediesociolo{
+    grid-area: q1;
+}
+
+
+#kotlerr{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "q2 q2  q2"
+        "q3 q3  q3"
+        "q4 q4  q4"
+        "q5 q5  q5"
+        "q6 q6  q6"
+        "q7 q7  q7"
+}
+
+#kotlermodel{
+    grid-area: q2;
+}
+
+#philipkot{
+    grid-area: q3;
+}
+
+#afsenderr{
+    grid-area: q4;
+}
+
+
+#ekskotler{
+    grid-area: q6;
+}
+
+
+#wikipedia{
+    grid-area: q7;
+}
+
+/*******IMK grid*******/
+
+#imkmodel{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas: 
+        "q8 q8  q8"
+        "q9 q9  q9"
+        "q10    q10 q10"
+        "q11    q11 q11"
+        "q12    q12 q12"
+        "q13    q13 q13"
+        "q14    q14 q14"
+}
+
+
+#IMkmodellen{
+    grid-area: q8;
+}
+
+
+#internatio{
+    grid-area: q9;
+}
+
+
+#klassiker{
+    grid-area: q10;
+}
+
+#staarbag{
+    grid-area: q11;
+}
+
+#eksimkmodel{
+    grid-area: q13;
+}
+
+#internaf{
+    grid-area: q14;
+}
+
+/****billeder*****/
 #kotler {
     width: 320px;
     height: auto;
+    grid-area: q5;
 }
 
 #IMK {
-    width: 300px;
+    width: 320px;
     height: auto;
+    grid-area: q12;
 }
 
 
 /************Design Thinking**********/
 
 
+/******grid********/
+
+#designthinking{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas: 
+        "q15    q15 q15"
+        "q16    q16 q16"
+        "q17    q17 q17"
+        "q18    q18 q18"
+}
+
+#designthi{
+    grid-area: q15;
+}
+
+#hjernehalv{
+    grid-area: q16;
+}
+
+#hjernen{
+    grid-area: q17;
+}
+
+
+/****Divergent grid*****/
+
+#divergentvs{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "q19    q19 q19"
+        "q20    q20 q20"
+        "q21    q21 q21"
+        "q22    q22 q22"
+}
+
+#konvergent{
+    grid-area: q19;
+}
+
+#dvsk{
+    grid-area: q20;
+}
+
+
+/*****billeder*****/
 #hjernehalvdel {
-    width: 300px;
+    width: 320px;
     height: auto;
+    grid-area: q18;
 }
 
 #divergent {
-    width: 300px;
+    width: 320px;
     height: auto;
+    padding-bottom: 10px;
+    grid-area: q22;
+    
 }
 
-/********film/visuel kommunikation*****/
 
+/***************************film/visuel kommunikation**************************/
+/******************************************************************************/
+
+
+/***************grid**************/
+
+#visuelkommunika{
+      display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t66    t66 t66"
+        "t67    t67 t67"
+}
+
+#visuelkommuni{
+    grid-area: t66;
+}
+
+#film{
+    grid-area: 67;
+}
+
+#arbjedemedfilm{
+    
+}
+
+
+
+/****************/
+#karakterr{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t68    t68 t68"
+        "t69    t69 t69"
+}
+
+
+#konflikttt{
+    grid-area: t68;
+}
+
+
+#livsstill{
+    grid-area: t69;
+}
+
+/********effekter og stilart grid*********/
+#efeekterr{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t70    t70 t70"
+        "t71    t71 t71"
+}
+
+
+#stilarter{
+    grid-area: t70;
+}
+
+#fastlagtfrastar{
+    grid-area: t71;
+}
+
+
+/*******kropssprog grid*******/
+
+#kropssprog{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t72    t72 t72"
+        "t73    t73 t73"
+}
+
+#kropsspro{
+    grid-area: t72;
+}
+
+#vibliverover{
+    grid-area: t73;
+}
+
+
+/*******lyd og musik grid*******/
+#lyd{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t74    t74 t74"
+        "t75    t75 t75"
+}
+
+#musik{
+    grid-area: t74;
+}
+
+#logm{
+    grid-area: t75;
+}
+
+/*****storyboard grid*********/
+
+#storyboard{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t76    t76 t76"
+        "t77    t77 t77"
+        "t78    t78 t78"
+}
+
+
+#storyboar{
+    grid-area: t76;
+}
+
+
+#raekketegninger{
+    grid-area: t77;
+}
+
+/*********motiv**********/
+
+#motiv{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t79    t79 t79"
+        "t80    t80 t80"
+}
+
+#moti{
+    grid-area: t79;
+}
+
+#vaelgermotiv{
+    grid-area: t80;
+}
+
+/****farveholdning grid*****/
+
+#farveholdning{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t81    t81 t81"
+        "t82    t82 t82"
+}
+
+
+#farvehold{
+    grid-area: t81;
+}
+
+
+#farverformerog{
+    grid-area: t82;
+}
+
+
+/*********moodboard*********/
+#moodboardd{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t83    t83 t83"
+        "t84    t84 t84"
+        "t85    t85 t85"
+}
+
+#moodb{
+    grid-area: t83;
+}
+
+#moodboa{
+    grid-area: t84;
+}
+
+/**********billder***********/
 #storyboard1{
     width: 300px;
     height: auto;
+    grid-area: t78;
 }
+
 #moodboard{
     width: 300px;
     height: auto;
+    padding-bottom: 10px;
+    grid-area: t85;
     
 }
-/************Produktionsmodeller******/
+/**************************************Produktionsmodeller***********/
+/***************************************************************************/
 
-#bollemodellen {
-    width: 300px;
-    height: auto;
+#produktionsmodel{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "q23    q23 q23"
+        "q24    q24 q24"
+        "q25    q25 q25"
+        "q26    q26 q26"
+        "q27    q27 q27"
+        "q28    q28 q28"
+}
+
+#produktions{
+    grid-area: q23;
+}
+
+#dennye{
+    grid-area: q24;
+}
+
+#opfundetaf{
+    grid-area: 25;
 }
 
 
-/***************Visualiseringsværktøj***********/
+#praemis{
+    grid-area:  26;
+}
 
+
+#erenramme{
+    grid-area: 27;
+}
+
+
+#spoerg{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "q29    q29 q29"
+        "q30    q30 q30"
+        "q31    q31 q31"
+}
+
+
+#despoers{
+    grid-area: q29;
+}
+
+
+#hvadermaal{
+    grid-area: q30;
+}
+
+#spoergshvord{
+    grid-area: q31;
+}
+
+/*****billede*****/
+#bollemodellen {
+    width: 320px;
+    height: auto;
+    grid-area:  28;
+}
+
+
+/***************************Visualiseringsværktøj*************************/
+/************************************************************************/
+
+
+/*******rough sketching grid********/
+
+#roughsketcing{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t30    t30 t30"
+        "t31    t31 t31"
+        "t32    t32 t32"
+}
+
+#roughske{
+    grid-area: t30;
+}
+
+#sketching{
+    grid-area: t31;
+}
+
+/*******materialer grid*********/
+
+
+#materialer{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t33    t33 t33"
+        "t34    t34 t34"
+        "t35    t35 t35"
+        "t36    t36 t36"
+        "t37    t37 t37"
+        "t38    t38 t38"
+        "t39    t39 t39"
+}
+
+#material{
+    grid-area: t33;
+}
+
+#laveroughsket{
+    grid-area: t34;
+}
+
+#tegneoevlse{
+    grid-area: t35;
+}
+/*******billeder******/
 #Tandpasta {
     width: 300px;
     height: auto;
     display: none;
+    grid-area: t36;
 }
 
 #Paere {
     width: 250px;
     height: auto;
+    grid-area: t37;
     
 }
 
 #Dame {
     width: 300px;
     height: auto;
+    grid-area: t38;
 }
 
 #Typografi {
     width: 300px;
     height: auto;
     display: none;
+    grid-area: t39;
 }
 
 #Rikke {
-    width: 250px;
+    width: 300px;
     height: auto;
+    padding-bottom: 10px;
+    grid-area: t32;
 }
 
 
 /**********Informationsarkitektur********/
 
+
+/******informationsarki grid*****/
+
+#informationsarki{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "q32    q32 q32"
+        "q33    q33  q33"
+}
+
+#arkitektur{
+    grid-area: q32;
+}
+
+
+#websitebesaar{
+    grid-area: q33;
+}
+
+
+/*******organisering grid********/
+
+#orginasering{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "q34    q34 q34"
+        "q35    q35 q35"
+        "q36    q36 q36"
+        "q37    q37 q37"
+        "q38    q38 q38"
+}
+
+
+
+#afinformation{
+    grid-area: q34;
+}
+
+#vedorganiseri{
+    grid-area: q35;
+    
+}
+
+#url{
+    grid-area: q36;
+}
+
+#nywebsite{
+    grid-area: q37;
+}
+
+#talemed{
+    grid-area: q38;
+}
+
+
+/*********sekcvens grid**********/
+#sekven{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "q39    q39 q39"
+        "q40    q40 q40"
+        "q41    q41 q41"
+}
+
+#sekve{
+    grid-area: q39;
+}
+
+#sekvenstrukt{
+    grid-area: q40;
+}
+
+/*****Hierarki grid*****/
+#hierarkii{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "q42    q42 q42"
+        "q43    q43 q43"
+        "q44    q44 q44"
+}
+
+#hiera{
+   grid-area: q42; 
+}
+
+#hierastruktur{
+    grid-area: q43;
+}
+
+/*****webstruktur grid****/
+
+#webstruktur{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "q45    q45 q45"
+        "q46    q46 q46"
+        "q47    q47 q47"
+        "q49    q49 q49"
+}
+
+
+#webstruk{
+    grid-area: q45;
+}
+
+
+#medwebstruk{
+    grid-area: q46;
+}
+
+/*****visualiseringsværktøj******/
+
+#visualiseringsvaer{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "q50    q50 q50"
+        "q51    q51 q51"
+        "q52    q52 q52"
+}
+
+
+#visualiserings{
+    grid-area: q50;
+}
+
+
+
+#naarmanstaar{
+    grid-area: q51;
+}
+
+
+
+#navigeringsde{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "q53    q53 q53"
+        "q54    q54 q54"
+        "q55    q55 q55"
+        "q56    q56 q56"
+        "q57    q57 q57"
+}
+
+#navigering{
+    grid-area: q53;
+}
+
+#navigdesign{
+    grid-area: q54;
+}
+
+#orienter{
+    grid-area: q55;
+}
+
+#gobal{
+    grid-area: q56;
+}
+
+#globalnavig{
+    grid-area: q57;
+}
+
+
+
+
+/*****øvelse grid*****/
+#oevlse{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "q58    q58 q58"
+        "q59    q59 q59"
+}
+
+#oevl{
+    grid-area: q58;
+}
+
+#websitezal{
+    grid-area: q59;
+}
+
+/*******billeder******/
 #sekvens{
-    width: 300px;
+    width: 320px;
     height: auto;
+    padding-bottom: 5px;
+    grid-area: q41;
 }
 
 #hierarki{
     width: 300px;
     height: auto;
+    padding-bottom: 5px;
+    grid-area: q44;
 }
 
 #webstruktur{
     width: 300px;
     height: auto;
+    grid-area: q47;
 }
 
-#allestrukturer{
-    width: 300px;
+#allestru{
+    width: 320px;
     height: auto;
+    grid-area: q49;
+    
 }
 
 #wireframe{
-    width: 300px;
+    width: 320px;
     height: auto;
+    grid-area: q52;
 }
 
-/*****Ide gernering*******/
+/*************************************Ide gernering**************************/
+/****************************************************************************/
 
+/*****ide gernering grid****/
+
+#idegenerering{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "q60    q60 q60"
+        "q61    q61 q61"
+}
+
+#idegener{
+    grid-area: q60;
+}
+
+#ideudvikling{
+    grid-area: q61;
+}
+
+
+/*********Associations********/
+#association{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas: 
+        "q62    q62 q62"
+        "q63    q63 q63"
+        "q64    q64 q64"
+        "q65    q65 q65"
+        
+}
+
+#associa{
+    grid-area: q62;
+}
+
+
+#metodengaar{
+    grid-area: q63;
+}
+
+
+#grundregler{
+    grid-area: q64;
+}
+
+
+#fastsaat{
+    grid-area: q65;
+}
+
+/*****post it metode******/
+
+#postitmetode{
+   display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas: 
+        "q66    q66 q66"
+        "q67    q67 q67"
+        "q68    q68 q68"
+        "q69    q69 q69"
+}
+
+#postit{
+    grid-area: q66;
+}
+
+#erengod{
+    grid-area: q67;
+}
+
+
+#grundregl{
+    grid-area: q68;
+}
+
+#lugud{
+    grid-area: q69;
+}
+
+/********Brainstorm*******/
+
+#brainstormee{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas: 
+        "q70    q70 q70"
+        "q71    q71 q71"
+        "q72    q72 q72"
+        "q73    q73 q73"
+}
+
+
+#brainstor{
+    grid-area: q70;
+}
+
+
+#brainstormeren{
+    grid-area: q71;
+}
+
+
+#grundreg{
+    grid-area: q72;
+}
+
+
+#defineremnet{
+    grid-area: q73;
+}
+
+/*********mindmap**********/
+
+#mindmapp{
+   display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:  
+        "q74    q74 q74"
+        "q75    q75 q75"
+        "q76    q76 q76"
+}
+
+#mindma{
+    grid-area: q74;
+}
+
+#tonubuzan{
+    grid-area: q75;
+}
+
+
+/******cirkelskrivning*******/
+
+#cirkelskrivning{
+   display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas: 
+        "t0 t0  t0"
+        "t1 t1  t1"
+        "t2 t2  t2"
+        "t3 t3  t3"
+        
+}
+
+#cirkelskriv{
+    grid-area: t0;
+}
+
+#cirkelskri{
+    grid-area: t1;
+}
+
+#grundre{
+    grid-area: t2;
+}
+
+#skrivetprob{
+    grid-area: t3;
+}
+/*****billeder*****/
 #eksmindmap{
-    width: 300px;
+    width: 320px;
     height: auto;
+    grid-area: q76;
 }
 
 
-/***********************************Projekter*******************************/
-/***************************************************************************/
+/***************************medie journalistiske begreber************************/
+/********************************************************************************/
+
+/*******journalistiske grid******/
+#mediejournabegreber{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t4 t4  t4"
+        "t5 t5  t5"
+        "t6 t6  t6"
+}
+
+#journalistiske{
+    grid-area: t4;
+}
+
+
+#indenfortekst{
+    grid-area: t5;
+}
+
+
+#vaesentlig{
+    grid-area: t6;
+}
+
+
+/*******artiklen******/
+
+#artiklen{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t7 t7  t7"
+        "t8 t8  t8"
+        "t9 t9  t9"
+        "t10    t10 t10"
+        "t14    t14 t14"
+        "t11    t11 t11"
+        "t12    t12 t12"
+        "t13    t13 t13"
+        
+}
+
+#artikel{
+    grid-area: t7;
+}
+
+#klassiskeartik{
+    grid-area: t8;
+}
+
+
+#nyhedstre{
+    grid-area: t9;
+}
+
+
+#hvemhvad{
+    grid-area: t11;
+}
+
+
+#produktelleremne{
+    grid-area: t13;
+}
+
+
+#subjeeartik{
+    grid-area: t14;
+}
+
+
+/********brochuren*********/
+#brochuren{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t15    t15 t15"
+        "t16    t16 t16"
+        "t17    t17 t17"
+        "t18    t18 t18"
+}
+
+#brochur{
+    grid-area: t15;
+}
+
+#kortergodt{
+    grid-area: t16;
+}
+
+#opsaatningafbro{
+    grid-area: t17;
+}
+
+#overformaal{
+    grid-area: t18;
+}
+
+
+/*****Annoncen*****/
+
+#annoncen{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t19    t19 t19"
+        "t20    t20 t20"
+        "t21    t21 t21"
+}
+
+
+#annonce{
+    grid-area: t19;
+}
+
+
+#enannonce{
+    grid-area: t20;
+}
+
+
+
+/*******tekst til web grid*******/
+
+#tekstertilweb{
+   display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t22    t22 t22"
+        "t23    t23 t23"
+}
+
+#tekstweb{
+    grid-area: t22;
+}
+
+
+#medtekster{
+    grid-area: t23;
+}
+
+/******Retorisk kommunikation grid*******/
+#retoriskkommuni{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t24    t24 t24"
+        "t25    t25 t25"
+        "t26    t26 t26"
+}
+
+
+#retoriskkommu{
+    grid-area: t24;    
+}
+
+#vedbrugafp{
+    grid-area: t25;
+}
+
+#pathos{
+    grid-area: t26;
+}
+
+/****typografisk semiotik grid****/
+
+#typografisemiotik{
+  display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:  
+        "t27    t27 t27"
+        "t28    t28 t28"
+}
+
+
+#typosemiotik{
+    grid-area: t27;
+}
+
+
+#mankanse{
+    grid-area: t28;
+}
+
+/******billeder******/
+ 
+#nyhedstrekant{
+    width: 320px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: t10;
+}
+
+#kommoden{
+     width: 320px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: t12;
+    
+}
+
+#aida{
+     width: 320px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: t21;
+}
+
+/*****************************storytelling*****************************/
+/**********************************************************************/
+
+/**********storytelling*********/
+#storytelling{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:  
+        "t40    t40 t40"
+        "t41    t41 t41"
+        "t42    t42 t42"
+}
+
+#storytel{
+    grid-area: t40;
+}
+
+#isbjerg{
+    grid-area: t41;
+}
+
+#vaeropmaerk{
+    grid-area: t42;
+}
+
+/*****historiefortællerns værktøjskasse grid*****/
+
+#historiefortaeller{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t43    t43 t43"
+        "t44    t44 t44"
+        "t45    t45 t45"
+        "t46    t46 t46"
+        "t47    t47 t47"
+        "t48    t48 t48"
+        "t49    t49 t49"
+        
+}
+
+
+#historiefortael{
+    grid-area: t43;
+}
+
+
+#kommertilvarktoej{
+    grid-area: t44;
+}
+
+
+#budskabb{
+    grid-area: t45;
+}
+
+
+#konfliktt{
+    grid-area: t46;
+}
+
+
+#fcbmodellen{
+    grid-area: t47;
+}
+
+
+#rollefordeling{
+    grid-area: t48;
+}
+
+#handlinge{
+    grid-area: t49;
+}
+
+
+/*********arketyperne*********/
+
+#arketyperne{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t50    t50 t50"
+        "t51    t51 t51"
+        "t52    t52 t52"
+        "t53    t53 t53"
+        "t54    t54 t54"
+        "t55    t55 t55"
+        "t56    t56 t56"
+        "t57    t57 t57"
+        "t58    t58 t58"
+        "t59    t59 t59"
+        "t60    t60 t60"
+        "t61    t61 t61"
+        "t62    t62 t62"
+        "t63    t63 t63"
+        "t64    t64 t64"
+        "t65    t65 t65"
+}
+
+
+#arketyper{
+    grid-area: t50;
+}
+
+
+#cbooker{
+      grid-area: t51;
+}
+
+
+#besejring{
+      grid-area: t52;
+}
+
+#uhyret{
+      grid-area: t53;
+}
+
+#fralaser{
+      grid-area: t54;
+}
+
+#hcandersen{
+      grid-area: t55;
+}
+
+#farefulde{
+      grid-area: t56;
+}
+
+#heltenrejser{
+      grid-area: t57;
+}
+
+
+#rejsentilen{
+      grid-area: t58;
+}
+
+
+#andenverden{
+      grid-area: t59;
+}
+
+
+#komedie{
+      grid-area: t60;
+}
+
+
+#modernekomedie{
+      grid-area: t61;
+}
+
+#tragedie{
+      grid-area: t62;
+}
+
+
+#entragedie{
+      grid-area: t63;
+}
+
+
+#genfoedsel{
+      grid-area: t64;
+}
+
+#heltenforbandet{
+      grid-area: t65;
+}
+/************************************************************************************************/
+/***********************************************Projekter****************************************/
+/************************************************************************************************/
 
 
 /*******prototype*********/
@@ -2039,7 +3645,9 @@ footer {
 
 
 /***********************************************************************************************************************/
+/***********************************************************************************************************************/
 /******************************************************Tablet***********************************************************/
+/***********************************************************************************************************************/
 /***********************************************************************************************************************/
 
 @media screen and (min-width:768px) {
@@ -2081,8 +3689,11 @@ footer {
 #tegningprototype {
     
 }
+
+/***********************************************************************************************************************/
 /***********************************************************************************************************************/
 /*****************************************************Desktop***********************************************************/
+/***********************************************************************************************************************/
 /***********************************************************************************************************************/
 
 @media screen and (min-width:1024px) {
