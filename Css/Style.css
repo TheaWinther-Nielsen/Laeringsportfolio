@@ -1,8 +1,10 @@
 /********************************************************************************************************/
-/****************************************************Mobil **********************************************/
+/****************************************************Mobil**********************************************/
 /********************************************************************************************************/
 
-
+html {
+    font-size: 100%;
+}
 
 header {
     text-align: center;
@@ -27,6 +29,9 @@ h2 {
 /*****************index*****************/
 /***************************************/
 
+.btn{
+    font-size: 20px;
+}
 
 /*****************footer*****************/
 /****************************************/
@@ -385,6 +390,7 @@ footer {
     
 }
 
+/****billeder****/
 
 #farvehjuloelse {
     width: 300px;
@@ -2817,7 +2823,7 @@ footer {
 
 /*****webstruktur grid****/
 
-#webstruktur{
+#webstrukture{
     display: grid;
     margin-left: 10px;
     margin-right: 10px;
@@ -3752,34 +3758,302 @@ footer {
 @media screen and (min-width:768px) {
     
 /**********************Design*********************/    
+
+/*************Generelt*****************/
+    html, body{
+        font-size: 120%;
+    }
+    
+    h1{
+        font-size: 200%;
+    }
+    
+    h4, h2,h5 {
+        font-size: 150%;
+    }
+    
+    footer {
+        font-size: 120%;
+    }
+    
 /*************FOTO**************/
     #hoejblaende {
-        width: 300px;
+        width: 700px;
         height: auto;
     }
     
-    
     #lavblaende {
-        width: 300px;
-        height: auto; 
+        width: 700px;
+        height: auto;
+        padding-bottom: 20px;
     }
     
     #blaendemodel {
-        width: 600px;
+        width: 700px;
         height: auto;
     }
     
     #lukketid {
-        width: 600px;
+        width: 700px;
         height: auto;
     }
 
+   
+    #isostoej {
+    width: 700px;
+    height: auto;
+}
+
+    #bridge {
+    width: 700px;
+    height: auto;
+}
+
+    #cameraraw {
+    width: 700px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    #photoshop1 {
+    width: 700px;
+    height: auto;
+}
     
 
+/**********programmer**********/
+#Brunophotoshop{
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    grid-area: g3;
+    
+}
+
+#celticcross {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    grid-area: h3;
+}
+
+#oelforside {
+    width: 700px;
+    height: auto;
+    grid-area: j3;
+}
+    
+
+/**********farver************/
+
+#farvewrap{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-areas: 
+        "d2 d2  d2"
+        "d1 d1  d1"
+        "d3 d3  d3"
+        "d4 d4  d4"
+        ".   .  d5"
+        "d6 d6  d6"
+        "d7 d7  d7"
+        "d8 d8  d8"
+        "d9 d9  d9"
+        "d10 d10 d10"
+    
+}    
+    
+#farvehjuloelse {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    grid-area: d9;
+}
+
+#maetning {
+    width: 600px;
+    height:auto;
+    margin: 0 auto;
+    grid-area: d10
+}
+
+#hjul{
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    grid-area: d1;
+}
+
+#RGB {
+    width: 500px;
+    height: auto;
+     grid-area: d5;
+}
+
+#CMYK {
+    width: 500px;
+    height: auto;
+   
+     grid-area: d7;
+    padding-bottom: 10px;
+}
+    
+
+/******gestalt*******/
+#simplicity {
+    width: 700px;
+    height: auto; 
+    grid-area: e4;
+}
+
+#figureground {
+    width: 700px;
+    height: auto;
+    grid-area: e7;
+    
+}
+
+#proimity{
+    width: 700px;
+    height: auto;
+    grid-area: 10;
+    
+}
+
+#continuinity{
+    width: 700px;
+    height: auto;
+    grid-area: e13;
+    
+}
+
+#ruleofthirds{
+    width: 700px;
+    height: auto;
+    grid-area: e16;
+    
+}
+
+#closure{
+    width: 700px;
+    height: auto;
+    grid-area: e19;
+}
+
+#symmertry{
+    width: 700px;
+    height: auto;
+    grid-area: e22;
+}
+
+#whitespace {
+    width: 700px;
+    height: auto;
+    grid-area: e25;
+}
+
+#goldensection{
+    width: 700px;
+    height: auto;
+    grid-area: e28;
+}
+
+#gridgestaltloven{
+    width: 700px;
+    height: auto;
+    grid-area: e31;
+    padding-bottom: 5px;
+}
+
+/************typografi************/
+
+#typo{
+    width: 700px;
+    height: auto;
+    grid-area: c3;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    
+}
+
+#serif {
+    width: 700px;
+    height: auto; 
+    grid-area: c5;
+    margin-top: 3px;
+    margin-bottom: 3px;
+   
+}
+
+#sanserif {
+    width: 700px;
+    height: auto;
+    grid-area: c7;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    
+}
+
+#haandskrift {
+    width: 700px;
+    height: auto;
+    grid-area: c10;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#Fantasy{
+    width: 700px;
+    height: auto;
+    grid-area: c13;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+    
+/***********video*********/   
+#beskaeringer {
+    width: 700px;
+    height: auto;
+    grid-area: l5;
+}
+
+#perspektiv{
+    width: 700px;
+    height: auto;
+    grid-area: l10;
+}
+
+iframe{
+        width: 700px;
+        height: 510px;
+        margin-top: 10px;
+    }
+
+/****************virksomhed*****************/
+/*******************************************/
+    
+/**********grundlag*********/   
+#vaedikaeden{
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    grid-area: m9;
+    
 }
 
 
+/************forretningsmodel og plan**************/
+#businessmodel {
+    width: 700px;
+    margin: 0 auto;
+    padding: 0 auto;
+    height: auto;
+}
 
+    
 /******************************Projekter************************************/
 /***************************************************************************/
 
