@@ -8,13 +8,15 @@ html {
 
 header {
     text-align: center;
-    background-color: whitesmoke;
+    background-color: whitesmoke; 
     padding-top: 2px;
     padding-bottom: 7px;
-    font-family:inherit;
+    font-family: sans-serif;
 }
 
 body{
+   font-family: sans-serif;
+   
     
 }
 
@@ -37,7 +39,8 @@ h2 {
 /****************************************/
 footer {
     text-align: center; 
-    background-color: dodgerblue;
+    background-color: #e7e7e7;
+
     font-size: 13px;
 }
 
@@ -62,30 +65,31 @@ footer {
     grid-template-areas: 
         "a  a   a"
         "b  b   b"
-        ".  c   ."
-        ".  d   ."
-        "e  e   e";
+        "c  c   c"
+        "d  d   d"
+        "e  e   e"
+     
 }
 
 #blaendeh2{
     grid-area: a;
-    column-span: all;
-    text-align: center;
+   
+
 }
 
 #blaendeindhold{
     grid-area: b;
-    column-span: all;
+ 
 }
 
 #hoejblaende{
     grid-area: c;
-    column-span: all;
+
 }
 
 #lavblaende{
     grid-area: d;
-    column-span: all;
+    
 }
 
 #dvs{
@@ -271,34 +275,34 @@ footer {
 }
 
 #blaendemodel {
-    width: 360px;
+    width: 330px;
     height: auto;
 }
 
 #lukketid {
-    width: 370px;
+    width: 340px;
     height: auto;
 }
 
 #isostoej {
-    width: 360px;
+    width: 300px;
     height: auto;
 }
 
 #bridge {
-    width: 360px;
+    width: 300px;
     height: auto;
 }
 
 #cameraraw {
-    width: 360px;
+    width: 300px;
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 #photoshop1 {
-    width: 360px;
+    width: 300px;
     height: auto;
 }
 
@@ -560,7 +564,7 @@ footer {
     grid-area: e27;
 }
 
-#gri{
+#grii{
     grid-area: e29;
 }
 
@@ -570,7 +574,7 @@ footer {
 
 
 /**********billeder**********/
-#simplicity {
+#simplic {
     width: 320px;
     height: auto; 
     grid-area: e4;
@@ -619,12 +623,14 @@ footer {
 #whitespace {
     width: 320px;
     height: auto;
+    margin-bottom: 10px;
     grid-area: e25;
 }
 
 #goldensection{
     width: 320px;
     height: auto;
+    margin-bottom: 10px;
     grid-area: e28;
 }
 
@@ -663,7 +669,7 @@ footer {
         "c12 c12 c12"
         "c13 c13 c13"
         "c14 c14 c14"
-        "c15 c15 15"
+        "c15 c15 c15"
         
 }
 
@@ -907,6 +913,9 @@ footer {
         "k1 k1  k1"
         "k2 k2  k2"
         "k3 k3  k3"
+        "k4 k4  k4"
+        "k5 k5  k5"
+        "k6 k6  k6"
 }
 
 #videopr{
@@ -923,12 +932,18 @@ footer {
     grid-area: k3;
 }
 
-#skudliste{
-    
+#produc{
+    grid-area: k4;
+}
+#lyd{
+    grid-area: k5;
+}
+#underen{
+    grid-area: k6;
 }
 
 
-
+/*********lyd*********/
 
 /****produktion****/
 #beskaering{
@@ -943,7 +958,7 @@ footer {
         "l3 l3  l3"
         "l4 l4  l4"
         "l5 l5  l5"
-        "l6 l6  l6"
+        "l6 .   ."
         "l7 l7  l7"
         "l8 l8  l8"
         "l9 l9  l9"
@@ -972,8 +987,9 @@ footer {
     grid-area: l4;
 }
 
-#perspek{
-    grid: l6;
+#vpers{
+    grid-area:  l6;
+    text-align: left;
 }
 
 #indeforper{
@@ -1113,21 +1129,61 @@ footer {
 /********************************forretningsmodel og plan*************/
 /*********************************************************************/
 
-
-
-
-
-
-
-
-
-
-
-#businessmodel {
-    width: 300px;
-    height: auto;
+#for{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-areas: 
+        "w9 w9  w9"
+        "w10    w10 w10"
+        "w11    w11 w11"
+        "w12    w12 w12"
+        "w13    w13 w13"
+        "w14    w14 w14"
+        "w15    w15 w15"
 }
 
+
+
+#forretning{
+    grid-area: w9;
+    text-align: center;
+}
+
+
+#model{
+    grid-area: w10;
+    text-align: left;
+}
+
+
+#enfor{
+    grid-area: w11;
+    text-align: left;
+}
+
+
+#plan{
+    grid-area: w12;
+    text-align: left;
+}
+
+
+#konkret{
+    grid-area: w13;
+    text-align: left;
+}
+
+#de{
+    grid-area: w14;
+    text-align: left;
+}
+
+#vaer{
+    grid-area: w15;
+    text-align: left;
+}
 
 
 /*********************************Licens*******************************/
@@ -1364,11 +1420,11 @@ footer {
 }
 
 #designlo{
-    grid-area: o0
+    grid-area: o0;
 }
 
 #omfatter{
-    grid-area: o1
+    grid-area: o1;
 }
 
 
@@ -1414,11 +1470,43 @@ footer {
 }
 
 
+/******************************KILDER****************************/
 
+#virksomhedd{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-areas: 
+         "w20   w20 w20"
+        "w21    w21 w21"
+        "w22    w22 w22"
+        "w23    w23 w23"
+        "w24    w24 w24"
+}
 
+#virk{
+    grid-area: w20;
+    text-align: center;
+}
 
+#kild{
+    grid-area: w21;
+    text-align: left;
+}
 
-
+#ophavpp{
+    grid-area: w22;
+    text-align: left;
+}
+#billev{
+    grid-area: w23;
+    text-align: left;
+}
+#colorb{
+    grid-area: w24;
+    text-align: left;
+}
 /*************************************************************************************************************/
 /**********************************************Interaktionsudvikling******************************************/
 /*************************************************************************************************************/
@@ -1898,6 +1986,7 @@ footer {
     grid-template-areas:
         "r37    r37 r37"
         "r38    r38 r38"
+        "r38    r38 r38"
 }
 
 #cssskriftyp{
@@ -2087,8 +2176,8 @@ footer {
 }
 
 
-/*****************************framework*******************/
-/********************************************************/
+/**********************************************framework*******************/
+/**************************************************************************/
 
 
 /*********framework grid**********/
@@ -2097,7 +2186,7 @@ footer {
      display: grid;
     margin-left: 10px;
     margin-right: 10px;
-    grid-template-columns: 1fr,1fr,fr1;
+    grid-template-columns: 1fr,1fr,1fr;
     grid-template-areas: 
         "r54    r54 r54"
         "r55    r55 r55"
@@ -2119,7 +2208,7 @@ footer {
     display: grid;
     margin-left: 10px;
     margin-right: 10px;
-    grid-template-columns: 1fr,1fr,fr1;
+    grid-template-columns: 1fr,1fr,1fr;
     grid-template-areas: 
         "r56    r56 r56"
         "r59    r59 r59"
@@ -2228,6 +2317,8 @@ footer {
         "q12    q12 q12"
         "q13    q13 q13"
         "q14    q14 q14"
+        "qq12   qq12    qq12"
+        "qq13   qq13    qq13"
 }
 
 
@@ -2256,6 +2347,18 @@ footer {
 #internaf{
     grid-area: q14;
 }
+
+#transmi{
+        grid-area: qq12;
+    text-align: left;
+    }
+
+#kanyle{
+    grid-area: qq13;
+    text-align: left;
+        
+    }
+
 
 /****billeder*****/
 #kotler {
@@ -2341,6 +2444,17 @@ footer {
 }
 
 
+
+/******************produktionsmodeller**********************/
+
+#produktionsmodel{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas: 
+}
+
 /***************************film/visuel kommunikation**************************/
 /******************************************************************************/
 
@@ -2372,7 +2486,7 @@ footer {
 
 
 
-/****************/
+/**************************/
 #karakterr{
     display: grid;
     margin-left: 10px;
@@ -2477,7 +2591,7 @@ footer {
     grid-area: t77;
 }
 
-/*********motiv**********/
+/**********motiv**********/
 
 #motiv{
     display: grid;
@@ -2564,11 +2678,16 @@ footer {
     grid-template-columns: 1fr,1fr,1fr;
     grid-template-areas:
         "q23    q23 q23"
+        "q29    q29 q29"
+        "q30    q30 q30"
+        "q31    q31 q31"
         "q24    q24 q24"
         "q25    q25 q25"
         "q26    q26 q26"
         "q27    q27 q27"
         "q28    q28 q28"
+     
+    
 }
 
 #produktions{
@@ -2593,30 +2712,19 @@ footer {
     grid-area: 27;
 }
 
-
-#spoerg{
-    display: grid;
-    margin-left: 10px;
-    margin-right: 10px;
-    grid-template-columns: 1fr,1fr,1fr;
-    grid-template-areas:
-        "q29    q29 q29"
-        "q30    q30 q30"
-        "q31    q31 q31"
-}
-
-
 #despoers{
     grid-area: q29;
+    text-align: left;
 }
-
 
 #hvadermaal{
     grid-area: q30;
+     text-align: left;
 }
 
 #spoergshvord{
     grid-area: q31;
+     text-align: left;
 }
 
 /*****billede*****/
@@ -3553,6 +3661,7 @@ footer {
 
 
 /*******prototype*********/
+/*************************/
 
 
 #projekt1{
@@ -3725,14 +3834,14 @@ footer {
     grid-area: u8;
 }
 
-/*****billeder****/
+
+/********billeder******/
 #foestescrum {
     width: 320px;
     height: auto;
     padding-bottom: 10px;
     grid-area: u9;
 }
-
 
 #blaabaermoodboard {
     width: 320px;
@@ -3749,15 +3858,83 @@ footer {
 }
 
 
-/***********************************************************************************************************************/
-/***********************************************************************************************************************/
-/******************************************************Tablet***********************************************************/
-/***********************************************************************************************************************/
-/***********************************************************************************************************************/
+/****************************************************************************/
+/*******************************Refleksioner*********************************/
+/****************************************************************************/
+
+#Refleksioner{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-areas: 
+        "w0 w0  w0"
+        "w1 w1  w1"
+        "w2 w2  w2"
+        "w5 w5  w5"
+        "w3 w3  w3"
+        "w4 w4  w4"
+        "w6 w6  w6"
+        
+}
+
+#refleksion{
+    grid-area: w0;
+}
+
+#proce{
+     grid-area: w1;
+    text-align: left;
+}
+
+#detfoeste{
+     grid-area: w2;
+     text-align: left;
+}
+
+#Afrunding{
+     grid-area: w3;
+    text-align: left;
+}
+
+#anderledes{
+     grid-area: w4;
+    text-align: left;
+}
+
+  #forsidee{
+        display: block;
+        width: 320px;
+        height: auto;
+        margin-right: 5px;
+        grid-area: w5;
+    
+    }
+    
+    #intromobi{
+        display: block;
+        width: 320px;
+        height: auto;
+        margin-right: 5px;
+        grid-area: w6;
+    }
+    
+    #indhotabl{
+        display: none;
+        width: 400px;
+        height: auto;
+        grid-area: w7;
+    }
+/*************************************************************************************************************************************/
+/*************************************************************************************************************************************/
+/********************************************************************Tablet***********************************************************/
+/*************************************************************************************************************************************/
+/*************************************************************************************************************************************/
 
 @media screen and (min-width:768px) {
     
-/**********************Design*********************/    
+/*******************************Design***************************/  
+/****************************************************************/
 
 /*************Generelt*****************/
     html, body{
@@ -3768,12 +3945,61 @@ footer {
         font-size: 200%;
     }
     
-    h4, h2,h5 {
+    h4, h2,h5,h3 {
         font-size: 150%;
     }
     
     footer {
         font-size: 120%;
+    }
+    
+    
+/************info side***********/
+    
+    .first-slide{
+        width: 600px;
+        height: auto;
+    }
+    
+    .second-slide{
+        width: 700px;
+        height: auto;
+    }
+    
+    .third-slide{
+        width: 700px;
+        height: auto;
+    }
+
+    .forth-slide{
+        width: 700px;
+        height: auto;
+    }
+    
+    .fifth-slide{
+        width: 700px;
+        height: auto;
+    }
+    
+    .Sixth-slide{
+        width: 700px;
+        height: auto;
+    }
+    
+    .Seventh-slide{
+        width: 550px;
+        height: auto;
+    }
+    
+    .Eighth-slide{
+        width: 700px;
+        height: auto;
+    }
+    
+    .ninth-slide{
+        width: 450px;
+        height: auto;
+        margin: 0 auto;
     }
     
 /*************FOTO**************/
@@ -3798,7 +4024,6 @@ footer {
         height: auto;
     }
 
-   
     #isostoej {
     width: 700px;
     height: auto;
@@ -3850,8 +4075,7 @@ footer {
 #farvewrap{
     display: grid;
     margin-left: 10px;
-    margin-right: 10px;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    margin-right: 10px;    grid-template-columns: 1fr, 1fr, 1fr;
     grid-template-areas: 
         "d2 d2  d2"
         "d1 d1  d1"
@@ -4013,27 +4237,17 @@ footer {
     margin-bottom: 3px;
 }
     
-/***********video*********/   
-#beskaeringer {
-    width: 700px;
-    height: auto;
-    grid-area: l5;
-}
-
-#perspektiv{
-    width: 700px;
-    height: auto;
-    grid-area: l10;
-}
+/***********video*********/
 
 iframe{
-        width: 700px;
+        width: 550px;
         height: 510px;
         margin-top: 10px;
     }
 
-/****************virksomhed*****************/
-/*******************************************/
+    
+/*****************************virksomhed***********************/
+/**************************************************************/
     
 /**********grundlag*********/   
 #vaedikaeden{
@@ -4048,27 +4262,4378 @@ iframe{
 /************forretningsmodel og plan**************/
 #businessmodel {
     width: 700px;
-    margin: 0 auto;
-    padding: 0 auto;
     height: auto;
+    margin-bottom: 10px;
 }
 
     
-/******************************Projekter************************************/
-/***************************************************************************/
+/**********lovgivning**********/
+    #lovgivingbog{
+    width: 600px;
+    height: auto;
+    grid-area: n1;
+    padding-top: 10px;
+}
+    
+    
+/**********creative commons***********/
+    #creativecommons {
+    width: 700px;
+    height: auto;
+    grid-area: p10;
+    margin-bottom: 10px;
+}
+    
+    
+    
+/**************************interaktions***************************/
+/*****************************************************************/
+    
+/********historie********/
+#helloworldcode {
+    width: 700px;
+    height: auto;
+}
+    
+/*********html**********/
+#htmlelement {
+    width: 700px;
+    height: auto;
+    margin-bottom: 10px;
+    grid-area: r3;
+ }
+
+#introhtml {
+    width: 700px;
+    height: auto;
+    grid-area: r7;
+}
+
+    
+    
+/************CSS************/
+#css {
+    width: 700px;
+    height: auto;
+    grid-area: r30;
+}
+
+#boxmodel{
+    width: 700px;
+    height: auto;
+    grid-area: r36;
+}
+    
+/*********Grid*********/
+#gridcss {
+    width: 700px;
+    height: auto;
+    grid-area: r46;
+}
+
+#Gridresualtat {
+    width: 700px;
+    height: auto;
+    grid-area: r47;
+}
+    
+/*********boostrap***********/
+#bootstrap {
+    width: 700px;
+    height: auto;
+    grid-area: r56;
+}
+    
+    
+/*********************kommunikation*****************************/
+/***************************************************************/
+
+/********strategi**********/
+#kotler {
+    width: 700px;
+    height: auto;
+    grid-area: q5;
+}
+
+#IMK {
+    width: 700px;
+    height: auto;
+    grid-area: q12;
+}
+
+/************designthinking******/
+#hjernehalvdel {
+    width: 700px;
+    height: auto;
+    grid-area: q18;
+}
+
+#divergent {
+    width: 700px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: q22;
+    
+}
+    
+    
+/********produktionsmodeller*******/
+#bollemodellen {
+    width: 700px;
+    height: auto;
+    grid-area:  28;
+}
+    
+    
+/******informationsarki******/
+#sekvens{
+    width: 700px;
+    height: auto;
+    padding-bottom: 5px;
+    grid-area: q41;
+}
+
+#hierarki{
+    width: 700px;
+    height: auto;
+    padding-bottom: 5px;
+    grid-area: q44;
+}
+
+#webstruktur{
+    width: 700px;
+    height: auto;
+    grid-area: q47;
+}
+
+#allestru{
+    width: 700px;
+    height: auto;
+    grid-area: q49;
+    
+}
+
+#wireframe{
+    width: 700px;
+    height: auto;
+    grid-area: q52;
+}
+    
+    
+/*******idegenerering********/
+#eksmindmap{
+    width: 700px;
+    height: auto;
+    grid-area: q76;
+}
+    
+
+/********Journalistiske begreber***********/
+#nyhedstrekant{
+    width: 700px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: t10;
+}
+
+#kommoden{
+     width: 700px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: t12;
+    
+}
+
+#aida{
+     width: 700px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: t21;
+}
+    
+    
+/***********visualiseringsværktøj***********/
+
+#Tandpasta {
+    width: 300px;
+    height: auto;
+    display: none;
+    grid-area: t36;
+}
+
+#Paere {
+    width: 700px;
+    height: auto;
+    grid-area: t37;
+    
+}
+
+#Dame {
+    width: 700px;
+    height: auto;
+    grid-area: t38;
+}
+
+#Typografi {
+    width: 700px;
+    height: auto;
+    display: block;
+    grid-area: t39;
+}
+
+#Rikke {
+    width: 700px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: t32;
+}
+    
+    
+/***********storytelling*************/
+#storyboard1{
+    width: 700px;
+    height: auto;
+    grid-area: t78;
+}
+
+#moodboard{
+    width: 650px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: t85;
+    
+}
+    
+    
+/*********************************************************************************************/    
+/*********************************************Projekter***************************************/
+/********************************************************************************************/
 
 /*******Prototype*********/
 
 #tegningprototype {
+    display: block;
+    width: 700px;
+    height: auto;
+}
     
+    
+    
+/*************OnePage*****************/
+#foestescrum {
+    width: 700px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: u9;
 }
 
-/***********************************************************************************************************************/
-/***********************************************************************************************************************/
-/*****************************************************Desktop***********************************************************/
-/***********************************************************************************************************************/
-/***********************************************************************************************************************/
+
+#blaabaermoodboard {
+    width: 650px;
+    height: auto;
+    margin: 0 auto;
+    grid-area: u10;
+}
+
+#emilieogkevin {
+    width: 500px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: u11;
+}
+
+    
+    
+/**********************************************************************************************************************************************************/
+/**********************************************************************************************************************************************************/
+/****************************************************************************************Desktop***********************************************************/
+/**********************************************************************************************************************************************************/
+/*********************************************************************************************************************************************************/
 
 @media screen and (min-width:1024px) {
     
+
+
+/**************************generelt********************************/
+body{
+        font-size: 170%;
+        text-align: left;
+    }
+    
+.container-fluid{
+        width: auto;
+        height: 60px;
+        margin-top: 5px;  
+    }
+    
+    
+/**************************index*************************************/    
+
+.container{
+        width: 80%;
+        font-size: 60%;
+        text-align: center;
+    }
+    
+    
+    
+/*********************************************************************/    
+/*********************************Design******************************/
+/*********************************************************************/
+    
+    
+/*************************************farver*************************/
+/********************************************************************/
+    
+#farvewrap{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-areas: 
+        "d2 d2  d2"        
+        "d3 d3  d3"
+        "d4 d4  d5"
+        ".  .   d5"
+        "d7 d7  d6"
+        "d7 d7  ."
+        "d8 d8  d1"
+        ".  .   d1"
+        ". d9  d10"
+       
+    
 }
+
+#farvelaere{
+     grid-area: d2;
+    
+}
+
+#farveteori{
+     grid-area: d3;
+     text-align: left;
+}
+
+#RGBfarver{
+     grid-area: d4;
+    text-align: left;
+    
+}
+
+#CMYKfarver{
+     grid-area: d6;
+     text-align: left;
+}
+
+#opdeles{
+    grid-area: d8;
+    text-align: left; 
+}
+
+/****billeder****/
+
+#farvehjuloelse {
+    width: 300px;
+    height: auto;
+    grid-area: d9;
+}
+
+#maetning {
+    width: 300px;
+    height:auto;
+    margin: 0 auto;
+    grid-area: d10
+}
+
+#hjul{
+    width: 320px;
+    height: auto;
+    grid-area: d1;
+}
+
+#RGB {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+     grid-area: d5;
+}
+
+#CMYK {
+    width: 400px;
+    height: auto;
+     grid-area: d7;
+    padding-bottom: 10px;
+}
+
+/*********************************gestaltlovene**************************/
+/************************************************************************/
+ 
+    
+#gestaltlovene{
+     display: grid;
+    margin-right: 10px;
+    margin-left: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: 
+        "e1 e1  e1  e1"
+        "e2 e2  e2  e2"
+        "e3 e3  e4  e4"
+        "e3 e3  e4  e4"
+        "e5 e5  e5  e5"
+        "e6 e6  e7  e7"
+        "e6 e6  e7  e7"
+        "e8 e8  e8  e8"
+        "e9 e9  e10 e10"
+        "e9 e9  e10  e10"
+        "e11    e11 e11 e11"
+        "e12    e12 e13 e13"
+        "e12    e12 e13 e13"
+        "e14    e14 e14 e14"
+        "e15    e15 e16 e16"
+        "e15    e15 e16 e16"
+        "e17    e17 e17 e17"
+        "e18    e18 e19 e19"
+        "e18    e18 e19 e19"
+        "e20    e20 e20 e20"
+        "e21    e21 e22 e22"
+        "e21    e21 22  e22"
+        
+    
+}
+
+#gestaltlove{
+    grid-area: e1;
+}
+
+#simpli{
+    grid-area: e2;
+    text-align: right;
+    
+}
+
+#ernaar{
+    grid-area: e3;
+     text-align: right;
+}
+
+#figure{
+    grid-area: e5;
+     text-align: right;
+}
+
+#figureer{
+    grid-area: e6;
+      text-align: right;
+}
+
+
+#proimi{
+    grid-area: e8;
+   text-align: right;
+}
+
+#mansaatter{
+    grid-area: e9;
+   text-align: right;
+}
+
+
+#continui{
+    grid-area: e11;
+      text-align: right;
+    
+}
+
+#manbliver{
+    grid-area: e12;
+      text-align: right;
+}
+
+#ruleof{
+    grid-area: e14;
+      text-align: right;
+}
+
+#delerbilledet{
+    grid-area: e15;
+      text-align: right;
+    
+}
+
+#closu{
+    grid-area: e17;
+    text-align: right;
+    
+}
+
+#closureoverlader{
+    grid-area: e18;
+     text-align: right;;
+}
+
+#symmert{
+    grid-area: e20;
+      text-align: right;
+}
+
+#skaberro{
+    grid-area: e21;
+      text-align: right;
+}
+
+
+#white{
+    grid-area: e23;
+      text-align: right;
+}
+
+#kanvaare{
+    grid-area: e24;
+      text-align: right;
+}
+
+
+#golden{
+    grid-area: e26;
+      text-align: right;
+}
+
+#spiral{
+    grid-area: e27;
+      text-align: right;
+}
+
+#grii{
+    grid-area: e29;
+     text-align: right;
+}
+
+#gitter{
+    grid-area: e30;
+      text-align: right;
+}  
+    
+
+/************************billeder******************/
+#simplic {
+    width: 500px;
+    height: auto; 
+    
+    grid-area: e4;
+}
+
+#figureground {
+    width: 500px;
+    height: auto;
+    grid-area: e7;
+    
+}
+
+#proimity{
+    width: 450px;
+    height: auto;
+    grid-area: 10;
+    
+}
+
+#continuinity{
+    width: 450px;
+    height: auto;
+    grid-area: e13;
+    
+}
+
+#ruleofthirds{
+    width: 500px;
+    height: auto;
+    grid-area: e16;
+    
+}
+
+#closure{
+    width: 400px;
+    height: auto;
+    grid-area: e19;
+}
+
+#symmertry{
+    width: 500px;
+    height: auto;
+    grid-area: e22;
+}
+
+#whitespace {
+    width: 500px;
+    height: auto;
+    margin-bottom: 10px;
+    grid-area: e25;
+}
+
+#goldensection{
+    width: 450px;
+    height: auto;
+    margin-bottom: 10px;
+    grid-area: e28;
+}
+
+#gridgestaltloven{
+    width: 500px;
+    height: auto;
+    grid-area: e31;
+    padding-bottom: 5px;
+}
+
+    
+    
+    
+
+    
+/**********************************Foto**********************************/
+/************************************************************************/
+    
+ #blaende{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: 
+        "a  a   a   a"
+        "b  b   c   c"
+        "b  b   c   c"
+        "e  e   d   d"
+        "e  e   d   d"
+     
+}
+
+#blaendeh2{
+    grid-area: a;
+    text-align: left;
+   
+
+}
+
+#blaendeindhold{
+    grid-area: b;
+    text-align: left;
+}
+
+#hoejblaende{
+    grid-area: c;
+
+}
+
+#lavblaende{
+    grid-area: d;
+    
+}
+
+#dvs{
+    grid-area: e;
+    text-align: left;
+}
+
+
+    
+    
+    
+/************Lukketid grid********/
+/*********************************/
+#lukketid1{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "1  1   1   1"
+        "2  2   .   3"
+        ".   .  .   3"
+}
+
+#lukh2{
+    grid-area: 1;
+    text-align: left;
+}
+
+#lukketidtekst{
+    grid-area: 2;
+    text-align: left;
+}
+
+
+/************Iso grid***********/
+/*******************************/
+#iso{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr; 
+    grid-template-areas: 
+        "i1 i1  i1  i1"
+        "i2 i2  i2  i2"
+        "i4 i4  i3  i3"
+        "i4 i4  i3  i3"
+}
+
+#isoH2{
+    grid-area: i1;
+    text-align: right;
+}
+
+#isop{
+    grid-area: i2;
+    text-align: right;
+}
+
+#isostoej{
+    grid-area: i3;
+    
+}
+
+#isohovedregl{
+    grid-area: i4;
+    text-align: left;
+}
+
+
+/***********Eksponering grid**********/
+/*************************************/
+
+#eksponering{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "e1 e1  e1  e1"
+        "e2 e2  e2  e2";
+}
+
+#hvidbalance{
+    grid-area: e1;
+    text-align: left;
+}
+
+#hvidB{
+    grid-area: e2;
+     text-align: left;
+}
+
+
+/*************workflow grid***********/
+/*************************************/
+
+#workflow{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "w1 w1  w1  w1"
+        "w2 w2  w3  w3"
+        "w4 w4  w3  w3"
+        "w4 w4  w5  w5"
+        "w4 w4  w5  w5"
+        
+}
+
+#work{
+    grid-area: w1;
+     text-align: left;
+}
+
+#start{
+    grid-area: w2;
+     text-align: left;
+}
+
+#bridge{
+    grid-area: w3;
+}
+
+#cameraraw{
+    grid-area: w4;
+}
+
+#photoshop1{
+    grid-area: w5;
+}
+
+
+/********billedekomposition grid*********/
+/****************************************/
+#billedekompo{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "billede1   billede1    billede1    ."
+        "billede2   billede2    billede2    ."
+        "billede3   billede3    billede3    ."
+        "billede4   billede4    billede4    ."
+        "billede5   billede5    billede5    ."
+        "billede6   billede6    billede6    ."
+        "billede7   billede7    billede7    ."
+}
+
+#billedek{
+    grid-area: billede1; 
+    text-align: left;
+}
+
+#fang{
+    grid-area: billede2;
+    text-align: left;
+}
+
+#landskab{
+    grid-area: billede3;
+    text-align: left;
+}
+
+#gyldnesnit{
+    grid-area: billede4;
+    text-align: left;
+}
+
+#harmoni{
+    grid-area: billede5;
+    text-align: left;
+}
+
+#trek{
+    grid-area: billede6;
+    text-align: left;
+}
+
+#skaber{
+    grid-area: billede7;
+    text-align: left;
+}
+
+
+/*******billeder********/
+#hoejblaende {
+    width: 500px;
+    height:auto;
+    grid-area: c;
+    
+}
+
+#lavblaende {
+    width: 500px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#blaendemodel {
+    width: 500px;
+    height: auto;
+}
+
+#lukketid {
+    width: 600px;
+    height: auto;
+    grid-area: 3;
+    margin: 0 auto;
+}
+
+#isostoej {
+    width: 600px;
+    height: auto;
+}
+
+#bridge {
+    width: 480px;
+    height: auto;
+    margin-bottom: 4px;
+}
+
+#cameraraw {
+    width: 600px;
+    height: auto;
+    padding-top: 10px;
+   
+}
+
+#photoshop1 {
+    width: 480px;
+    height: auto;
+} 
+    
+/*************************************programmer**************************/
+/*************************************************************************/
+    
+/***programmer grid***/
+#programmer{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas: 
+        "f1 f1  f1"
+        "f2 f2  f2"
+}
+#program{
+    grid-area: f1;
+    text-align: center;
+}
+
+#alle3{
+    grid-area: f2;
+    text-align: center;
+    
+}
+
+
+/*****photoshop grid***/
+
+#photoshop{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "g1 .   .   ."
+        "g2 g2  g3  g3"
+        "g2 g2  g3  g3"
+        "g4 g4  g4  ."
+        "g5 g5  g5  ."
+        
+}
+
+#photoshoper{
+    grid-area: g2;
+    text-align: left
+}
+
+#photo{
+    grid-area: g1;
+    text-align: left
+}
+
+
+#hyppigt{
+    grid-area: g4;
+    text-align: left
+}
+
+
+#vaerktoejer{
+    grid-area: g5;
+    text-align: left
+}
+
+
+
+/*******Illustrator grid***/
+#illustrator{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr 1fr;
+    grid-template-areas: 
+        "h1 h1  h1 h1"
+        "h3 .  h2  h2"
+        "h3 .  h2  h2"
+    
+        
+}
+
+#AL{
+    grid-area: h1;
+    text-align: right;
+    margin
+}
+
+#adobesillu{
+    grid-area: h2;
+    text-align: right;
+}
+
+
+/****indesign grid***/
+
+#indesign{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "j1 .   .   ."
+        "j2 j2  j3 j3"
+        "j2 j2  j3 j3"
+    
+}
+
+#ind{
+    grid-area: j1;
+    text-align: 
+}
+
+#eret{
+    grid-area: j2;
+    text-align: left
+}
+
+
+/***********billeder*******/
+
+#Brunophotoshop{
+    width: 400px;
+    height: auto;
+    grid-area: g3;
+    
+}
+
+#celticcross {
+    width: 400px;
+    height: auto;
+    grid-area: h3;
+}
+
+#oelforside {
+    width: 500px;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    grid-area: j3;
+}
+    
+
+    
+    
+/*********************************video*******************************/
+/*********************************************************************/
+    
+    
+    
+/*********************************video grid*****************************/
+
+#video{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "k1 k1  k1  k1"
+        "k2 k2  k2  ."
+        "k3 k3  k3  ."
+        "k4 k4  k4  ."
+        "k5 k5  k5  ."
+        "k6 k6  k6  ."
+}
+
+#videopr{
+    grid-area: k1;
+    text-align: center;
+    
+}
+
+#prepro{
+    grid-area: k2;
+    text-align: left;
+}
+
+#tilen{
+    grid-area: k3;
+    text-align: left;
+}
+
+#produc{
+    grid-area: k4;
+    text-align: left;
+}
+#lyd{
+    grid-area: k5;
+    text-align: left;
+}
+#underen{
+    grid-area: k6;
+    text-align: left;
+}
+
+/******************************produktion***********************************/
+#beskaering{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "l1 l1  l1  l1"
+        "l2 l2  l2  l2"
+        "l0 l0  l0  l0"
+        "l3 l3  l5  l5"
+        "l4 l4  l5  l5"
+        "l4 l4  l5  l5"
+        "l6 l6  l6  l6"
+        "l7 l7  .   ."
+        "l8 l8  l10  l10"
+        "l9 l9  l10 l10"
+        ".  .   l10 l10"
+}
+
+#beskaer{
+    grid-area: l1;
+    text-align: center;
+    
+}
+
+#besk{
+    grid-area: l2;
+     text-align: left;
+}
+
+#indenforvideo{
+    grid-area: l0;
+     text-align: left;
+}
+
+#vihar{
+    grid-area: l3;
+     text-align: left;
+}
+
+#ultra{
+    grid-area: l4;
+     text-align: left;
+}
+
+#vpers{
+    grid-area:  l6;
+    text-align: left;
+     
+}
+
+#indeforper{
+    grid-area: l7;
+     text-align: left;
+}
+
+#froe{
+    grid-area: l8;
+     text-align: left;
+}
+
+#fugl{
+    grid-area: l9;
+     text-align: left;
+}
+    
+    
+    
+    
+/*****************************postproduction********************************/
+
+#postproduction{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "m0 m0  m0  m0"
+        "m1 m1  m1 m1"
+        "m2 m2  m2 m2"   
+}
+
+#post{
+    grid-area: m0;
+    text-align: left
+    
+}
+
+#processen{
+    grid-area: m1;
+    text-align: left
+}
+
+#eteksempel{
+    grid-area: m2;
+    text-align: left
+    
+    
+}
+
+/*****billeder****/
+
+#beskaeringer {
+    width: 600px;
+    height: auto;
+    grid-area: l5;
+}
+
+#perspektiv{
+    width: 600px;
+    height: auto;
+    grid-area: l10;
+}
+
+iframe{
+        width: 500px;
+        height: 300px;
+    }
+    
+    
+/**********************************typografi********************************/
+
+#typografi{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: 
+        "c1 c1  c1  c1"
+        "c2 c2  c2  c2"
+        "c3 c3  c3  c3"
+        ".  .   c4  c4"
+        "c5 c5  c16 c16"
+        "c5 c5  .   ."
+        "c6 c6  c6  ."
+        "c17 c17 c7 c7"
+        ".  .    c7  c7"
+        ".  .    c8  c8"
+        "c10 c10 c9  c9"
+        "c10 c10    .   ."
+        "c11 c11 c11    ."
+        "c12 c12 c13    c13"
+        "c12 c12 c13    c13"
+        "c14 c14 c14    ."
+        "c15 c15 c15    ."
+        
+}
+
+#typooverskrift{
+    grid-area: c1;
+    
+}
+
+#ietdesign{
+    grid-area: c2;
+    text-align: center;
+}
+
+
+#seriffamilien{
+    grid-area: c4;
+    text-align: left;
+}
+
+#paaserif{
+    grid-area: c16;
+    text-align: left;
+}
+
+#sanseriffamilien{
+    grid-area: c6;
+    text-align: left;
+}
+
+#erlidt{
+    grid-area: c17;
+    text-align: left;
+}
+
+#haandskriftfamilien{
+    grid-area: c8;
+    text-align: left;
+}
+
+#navnetantyder{
+    grid-area: c9;
+    text-align: left;
+}
+
+#fantasyfamilien{
+    grid-area: c11;
+    text-align: left;
+}
+
+#velkendt{
+    grid-area: c12;
+    text-align: left;
+}
+
+#vigtigebegreb{
+    grid-area: c14;
+    text-align: left;
+}
+
+#minuskler{
+    grid-area: c15;
+    text-align: left;
+}
+
+
+/********************************billeder*******************************/
+#typo{
+    width: 700px;
+    height: auto;
+    grid-area: c3;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    
+}
+
+#serif {
+    width: 480px;
+    height: auto; 
+    grid-area: c5;
+    margin-top: 3px;
+    margin-bottom: 3px;
+   
+}
+
+#sanserif {
+    width: 500px;
+    height: auto;
+    grid-area: c7;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    }
+
+#haandskrift {
+    width: 480px;
+    height: auto;
+    grid-area: c10;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 10px;
+}
+
+#Fantasy{
+    width: 450px;
+    height: auto;
+    grid-area: c13;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+    
+    }
+    
+/******************************************************************************************/
+/***************************************************virksomhed*****************************/
+/******************************************************************************************/
+    
+/*******grundlag*********/
+#virksomhed{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "m3 m3  m3  m3"
+        "m4 m4  m4  m4"
+        "m5 m5  m5  m5"
+    
+}
+
+#virksom{
+    grid-area: m3;
+    text-align: center;
+    
+}
+
+#grundlag{
+    grid-area: m4;
+    text-align: left;
+    
+}
+
+#forekommer{
+    grid-area: m5;
+    text-align: left;
+    
+}
+
+
+#vaerdikaeden{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "m6 m6  m6  m6"
+        "m7 m7  .   ."
+        "m8 m8  m9  m9"
+        "m8 m8  m9  m9"
+    
+}
+
+#vaerdi{
+    grid-area: m6;
+    text-align: left;
+    
+}
+
+#brugaf{
+    grid-area: m7;
+    text-align: left;
+    
+}
+
+#indgaande{
+    grid-area: m8;
+    text-align: left;
+}
+
+#vaedikaeden{
+    width: 550px;
+    height: auto;
+    grid-area: m9;
+    
+  
+}
+    
+    
+/********************Forretningsmodel og plan**************************/
+    #for{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-areas: 
+        "w9 w9  w9  w9"
+        "w10    w10 w10 w10"
+        "w11    w11 w11 w11"
+        "w12    w12 w12 w12"
+        "w13    w13 w13 w13"
+        "w14    w14 w14 w14"
+        "w15    w15 w15 w15"
+}
+
+
+
+#forretning{
+    grid-area: w9;
+    text-align: center;
+}
+
+
+#model{
+    grid-area: w10;
+    text-align: left;
+}
+
+
+#enfor{
+    grid-area: w11;
+    text-align: left;
+}
+
+
+#plan{
+    grid-area: w12;
+    text-align: left;
+}
+
+
+#konkret{
+    grid-area: w13;
+    text-align: left;
+}
+
+#de{
+    grid-area: w14;
+    text-align: left;
+}
+
+#vaer{
+    grid-area: w15;
+    text-align: left;
+}
+
+    
+/**************************Lovgivning*****************************/    
+    
+    
+#ophavsret{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "n0 n0  n0  n0"
+        "n1  n1   n1 n1"
+        "n2 n2  n2  n2"
+        "n3 n3  n3  n3"
+        "n4 n4  n4  n4"   
+    
+}
+
+#ophavsret{
+    grid-area: n0;
+    text-align: center;
+}
+
+#lovgiv{
+    grid-area: n2;
+    text-align: center;
+}
+
+#ophavs{
+    grid-area: n3;
+      text-align: left;
+}
+
+#besky{
+    grid-area: n4;
+      text-align: left;
+}
+
+
+/******billede******/
+#lovgivingbog{
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    grid-area: n1;
+   
+}
+
+
+/*************patentret grid*****/
+
+#patentret{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "n5 n5  n5  n5"
+        "n6 n6  n6  n6"
+        "n7 n7  n7  n7"
+        "n8 n8  n8  n8"
+    
+}
+
+
+#patent{
+    grid-area: n5;
+      text-align: left;
+}
+
+#patentloven{
+    grid-area: n6;
+      text-align: left;
+}
+
+#opdagelser{
+    grid-area: n7;
+      text-align: left;
+}
+
+#eks{
+    grid-area: n8;
+      text-align: left;
+    
+}
+
+
+/************designloven grid*******/
+
+#designloven{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas: 
+        "o0 o0  o0  o0"
+        "o1 o1  o1  o1"
+}
+
+#designlo{
+    grid-area: o0;
+    text-align: left;
+}
+
+#omfatter{
+    grid-area: o1;
+    text-align: left;
+}
+
+
+/**************markedsloven grid*******/
+
+#markedsfoeringsloven{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "o2 o2  o2  o2"
+        "o3 o3  o3  o3"
+}
+
+#markeds{
+    grid-area: o2;
+      text-align: left;
+}
+
+#beskytter{
+    grid-area: o3;
+      text-align: left;
+}
+
+
+/*******personlig grid****/
+
+#personlighedsret{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "o4 o4  o4  o4"
+        "o5 o5  o5  o5"
+}
+
+#personlig{
+    grid-area: o4;
+      text-align: left;
+}
+
+#straffeloven{
+    grid-area: o5;
+      text-align: left;
+}
+
+
+
+    
+/*****************************Licens******************************/
+    
+#licenser{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr,1fr;
+    grid-template-areas: 
+        ".  p0  p0   ."
+        "p1 p1  p1  p1"
+        "p2 p2  p2  p2"
+        "p3 p3  p3  p3"
+}
+
+#licens{
+    grid-area: p0;
+   
+}
+
+#licensmet{
+    grid-area: p1;
+     text-align: left;
+}
+
+#kildekode{
+    grid-area: p2;
+     text-align: left;
+}
+
+#opens{
+    grid-area: p3;
+     text-align: left;
+}
+
+
+/**********copyleft grid*********/
+
+#copyleft{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "p4 p4  p4  p4"
+        "p5 p5  p5  p5"
+}
+
+#copyl{
+    grid-area: p4;
+     text-align: left;
+}
+
+#left{
+    grid-area: p5;
+     text-align: left;
+}
+
+
+    
+/******************creative commons******************/
+#creativec{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "p6 p6  p6  p6"
+        "p7 p7  p7  p7"
+}
+
+#cc{
+    grid-area: p6;
+    
+}
+
+#erenmaade{
+    grid-area: p7;
+    
+}
+
+
+/*****metoder******/
+
+#metoder{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "p8     p8  p8  p8"
+        "p11    p11 p10 p10"
+        "p9     p9  p10 p10"
+        "p9     p9  p10 p10"
+}
+
+#me{
+    grid-area: p8;
+     text-align: left
+}
+
+#derer{
+    grid-area: p11;
+     text-align: left
+}
+
+#met{
+    grid-area: p9;
+     text-align: left
+}
+
+#creativecommons {
+    width: 450px;
+    height: auto;
+    grid-area: p10;
+    padding-bottom: 5px;
+}
+
+
+/******eksempler******/
+
+#eksempler{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "p12    p12 p12 p12"
+        "p13    p13 p13 p13"
+}
+
+
+#eksemp{
+    grid-area: p12;
+    text-align: left
+}
+
+#by{
+    grid-area: p13;
+    text-align: left
+}
+    
+    
+/********************KILDER*******************/
+#virksomhedd{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: 
+         "w20   w20 w20 w20"
+        "w21    w21 w21 w21"
+        "w22    w22 w22 w22"
+        "w23    w23 w23 w23"
+        "w24    w24 w24 w24"
+}
+
+#virk{
+    grid-area: w20;
+    text-align: center;
+}
+
+#kild{
+    grid-area: w21;
+    text-align: left;
+}
+
+#ophavpp{
+    grid-area: w22;
+    text-align: left;
+}
+#billev{
+    grid-area: w23;
+    text-align: left;
+}
+#colorb{
+    grid-area: w24;
+    text-align: left;
+}
+    
+/***************************************************************************************/
+/****************************************interaktionsudvikling**************************/
+/***************************************************************************************/
+    
+    
+/*********************historie*********************/
+#historie{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q0 q0  q0  q0"
+        "q1 q1  q1  q1"
+}
+
+#web{
+    grid-area: q0;
+   
+    
+}
+
+
+#enide{
+    grid-area: q1;
+    text-align: left;
+}
+
+
+/*************/
+#opfind{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q2 q2  q2  q2"
+}
+
+
+#tim{
+    grid-area: q2;
+    text-align: left;
+}
+
+
+/*******tid*********/
+#tid{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q3 q3  q3  q3"
+        "q4 q4  q4  q4"
+}
+
+#linje{
+    grid-area: q3;
+    text-align: left;
+}
+
+#tidlige{
+    grid-area: q4;
+    text-align: left;
+    }
+
+
+/********grundstene*********/
+
+#grund{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q5 q5  q5  q5"
+        "q6 q6  q6  q6"
+        "q7 q7  q7  q7"
+        "q8 q8  q8  q8"
+}
+
+
+
+#sten{
+    grid-area: q5;
+    text-align: left;
+}
+
+
+
+#server{
+    grid-area: q6;
+    text-align: left;
+}
+
+
+#serv{
+    grid-area: q7;
+    text-align: left;
+}
+
+
+#klient{
+    grid-area: q8;
+    text-align: left;
+}
+
+
+/*********første website**********/
+
+#foest{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q9  q9  q11  q11"
+        "q10 q10 q11  q11"
+        "q10 q10 q11  q11"
+}
+
+#websitef{
+    grid-area: q9;
+    text-align: left;
+}
+
+#helloworld{
+    grid-area: q10;
+    text-align: left;
+}
+
+#helloworldcode{
+    grid-area: q11;
+}
+
+#helloworldcode {
+    width: 500px;
+    height: auto;
+}
+
+
+/********************HTML********************/
+#html{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        ".  r0  .   ."
+        "r1 r1  .   ."
+        "r1 r1  r3  r3"
+        "r4 r4  r3  r3"
+}
+
+#ht{
+    grid-area: r0;
+    
+}
+
+#hyper{
+    grid-area: r1;
+    text-align: left;
+}
+
+#edit{
+    grid-area: r4;
+    text-align: left;
+}
+
+/*****grundlæggende grid******/
+
+#grundlaeg{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "r5 r5  r5  r5"
+        "r6 r6  r7  r7"
+        "r6 r6  r7  r7"
+}
+
+#grundlae{
+    grid-area: r5;
+    text-align: left;
+}
+
+#opbyg{
+    grid-area: r6;
+    text-align: left;
+}
+
+
+/*******links grid*******/
+
+#links{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "r8 r8  r8  r8"
+        "r9 r9  r9  r9"
+}
+
+#link{
+    grid-area: r8;
+    text-align: left;
+}
+
+
+#billed{
+    grid-area: r9;
+    text-align: left;
+}
+
+
+
+/*****lister grid******/
+#lister{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr,1fr;
+    grid-template-areas:
+        "r10    r10 r10 r10"
+        "r11    r11 r11 r11"
+        "r12    r12 r12 r12"
+        "r13    r13 r13 r13"
+        "r14    r14 r14 r14"
+}
+
+#list{
+    grid-area: r10;
+    text-align: left;
+}
+
+#olist{
+    grid-area: r11;
+    text-align: left;
+}
+
+#orden{
+    grid-area: r12;
+    text-align: left;
+}
+
+
+#ulist{
+    grid-area: r13;
+    text-align: left;
+}
+
+#uorden{
+    grid-area: r14;
+    text-align: left;
+}
+
+
+/******validering grid*******/
+#validering{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "r15    r15 r15 r15"
+        "r16    r16 r16 r15"    
+}
+
+#vali{
+    grid-area: r15;
+    text-align: left;
+}
+
+#valide{
+    grid-area: r16;
+    text-align: left;
+}
+
+
+/****billeder****/
+#htmlelement {
+    width: 500px;
+    height: auto;
+   margin-left: 10px;
+    grid-area: r3;
+ }
+
+#introhtml {
+    width: 500px;
+    height: auto;
+    margin-left: 10px;
+    grid-area: r7;
+}
+
+    
+/************Tags**************/
+#tags{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "r17    r17 r17 r17"
+        "r18    r18 r18 r18"
+        "r19    r19 r19 r19"
+}
+
+#tag{
+    grid-area: r17;
+}
+
+#meta{
+    grid-area: r18;
+    text-align: left;
+}
+
+#attribut{
+    grid-area: 19;
+    text-align: left;
+}
+    
+#semantiske{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "r20    r20 r20 r20"
+        "r21    r21 r21 r21"
+}
+
+#semant{
+    grid-area: r20;
+    text-align: left;
+}
+
+#ihtml{
+    grid-area: r21;
+     text-align: left;
+}
+
+
+#phrasing{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "r22    r22 r22 r22"
+        "r27    r27 r27 r27"
+        "r23    r23 r23 r23"
+        "r28    r28 r28 r28"
+}
+
+#phras{
+    grid-area: r22;
+     text-align: left;
+}
+
+#brugestilat{
+    grid-area: r27;
+     text-align: left;
+}
+
+#strong{
+    grid-area: r23;
+     text-align: left;
+}
+
+#kapitel5{
+    grid-area: r28;
+     text-align: left;
+}
+    
+#overtags{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "r24    r24 r24 r24"
+        "r25    r25 r25 r25"
+        "r26    r26 r26 r26"
+}
+
+#listetags{
+    grid-area: r24;
+     text-align: left;
+}
+
+#h1ogh6{
+    grid-area: r25;
+    text-align: left;
+}
+
+#afleveringhtml{
+    grid-area: r26;
+    text-align: left;
+}
+    
+    
+/****************CSS****************/
+#csss{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "r27    r27 r27 r27"
+        "r28    r28 r28 r28"
+        "r29    r29 r29 r29"
+        "r30    r30 r30 r30"
+}
+
+#cssoverskrift{
+    grid-area: r27;
+}
+
+#cascading{
+    grid-area: r28;
+    text-align: left
+}
+
+#style{
+    grid-area: r29;
+    text-align: left
+}
+
+
+
+/*************Selectors*********/
+
+#selector{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "r31    r31 r31 r31"
+        "r32    r32 r32 r32"
+        "r33    r33 r33 r33"
+}
+
+#select{
+    grid-area: r31;
+    text-align: left
+}
+
+#IDclass{
+    grid-area: r32;
+    text-align: left
+}
+
+#hvisderarbejdes{
+    grid-area: r33;
+    text-align: left
+}
+
+
+/***********Box model grid*******/
+
+#boks{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "r34    r34 r34 r24"
+        "r35    r35 r36 r36"
+        "r35    r35 r36 r36"
+ 
+}
+ 
+#Boxm{
+    grid-area: r34;
+    text-align: left;
+}
+
+#brugicss{
+    grid-area: r35;
+    text-align: left;
+}
+
+
+/**********skrifttyper**********/
+
+#skriftcss{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "r37    r37 r37 r37"
+        "r38    r38 r38 r38"
+}
+
+#cssskriftyp{
+    grid-area: r37;
+    text-align: left;
+}
+
+#computer{
+    grid-area: r38;
+    text-align: left;
+}
+
+/*****billeder*****/
+#css {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    grid-area: r30;
+}
+
+#boxmodel{
+    width: 500px;
+    height: auto;
+    grid-area: r36;
+}
+
+    
+/*****************versionsstyring******************/
+#versionsstyr{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "r39    r39 r39 r39"
+        "r40    r40 r40 r40"
+        
+}
+
+#versions{
+    grid-area: r39;
+}
+
+
+#version{
+    grid-area: r40;
+    text-align: left;
+}
+
+
+/****git og github grid*****/
+
+#gitog{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "r41    r41 r41 r41"
+        "r42    r42 r42 r42"
+        "r43    r43 r43 r43"
+}
+
+
+#github{
+    grid-area: r41;
+    text-align: left;
+}
+
+
+#git{
+    grid-area: r42;
+    text-align: left;
+}
+
+
+#repos{
+    grid-area: r43;
+    text-align: left;
+}
+
+/******************************Grid************************/
+/*********************************************************/
+
+/****** grid til grid******/
+
+#grid{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1frf,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "r44    r44 r44 r44"
+        "r45    r45 r46 r46"
+        ".    r47 r46 r46"
+        ".      r47 .   ."
+}
+
+
+#gri{
+    grid-area: r44;
+}
+
+
+#gridtager{
+    grid-area: r45;
+    text-align: left;
+}
+
+
+/******billeder*******/
+#gridcss {
+    width: 400px;
+    height: auto;
+    grid-area: r46;
+}
+
+#Gridresualtat {
+    width: 500px;
+    height: auto;
+    margin-right: 31px;
+    grid-area: r47;
+}
+
+/*******************Responsive****************************/
+/*********************************************************/
+    
+#responsiv{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "r48    r48 r48 r48"
+        "r49    r49 r49 r49"
+}
+
+
+#respons{
+    grid-area: r48;
+    text-align: left;
+}
+
+
+#respo{
+    grid-area: r49;
+    text-align: left;
+}
+
+/**********Media queries**********/
+
+#mediaqueri{
+   display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: 
+        "r50    r50 r50 r50"
+        "r51    r51 r51 r51"
+}
+
+
+#mediaquer{
+    grid-area: r50;
+    text-align: left;
+}
+
+#mediaq{
+    grid-area: r51;
+    text-align: left;
+}
+
+
+/*********viewport***********/
+
+#viewport{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: 
+        "r52    r52 r52 r52"
+        "r53    r53 r53 r53"
+}
+
+#view{
+    grid-area: r52;
+    text-align: left;
+}
+
+#foratfaa{
+    grid-area: r53;
+    text-align: left;
+}
+
+    
+/**********************Framework***********************/
+/******************************************************/
+
+#framework{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "r54    r54 r54 r54"
+        "r55    r55 r55 r55"
+}
+
+
+#frame{
+    grid-area: r54;
+    text-align: left;
+}
+
+
+#fworker{
+    grid-area: r55;
+    text-align: left;
+}
+
+
+#bootstrapp{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "r59    .   .   ."
+        "r57    r57 r56 r56"
+        "r57    r57 r56 r56"
+        "r58    r58 r56 r56"
+        ".      .   r56 r56"
+}
+
+
+#boostra{
+    grid-area: r59;
+    text-align: left;
+}
+
+#boots{
+    grid-area: r57;
+     text-align: left;
+}
+
+#mobilerxs{
+    grid-area: r58;
+     text-align: left;
+}
+
+
+/*******billeder******/
+#bootstrap {
+    width: 500px;
+    height: auto;
+    grid-area: r56;
+}
+    
+    
+/***************************************************************/
+/***********************Kommunikation***************************/
+/***************************************************************/
+
+/***********Strategi******************/
+#kommunikation{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas: 
+        "q0 q0  q0"
+        "q1 q1  q1"
+}
+
+#strategi{
+    grid-area: q0;
+}
+
+#mediesociolo{
+    grid-area: q1;
+}
+
+
+#kotlerr{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q2 q2  q2  q2"
+        "q3 q3  q3  q3"
+        "q4 q4  q5  q5"
+        "q4 q4  q5  q5"
+        "q6 q6  q5  q5"
+        "q7 q7  q5  q5"
+}
+
+#kotlermodel{
+    grid-area: q2;
+    text-align: left;
+}
+
+#philipkot{
+    grid-area: q3;
+    text-align: left;
+}
+
+#afsenderr{
+    grid-area: q4;
+    text-align: left;
+}
+
+
+#ekskotler{
+    grid-area: q6;
+    text-align: left;
+}
+
+
+#wikipedia{
+    grid-area: q7;
+    text-align: left;
+}
+
+/*******IMK grid*******/
+
+#imkmodel{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "q8 q8  q8  q8"
+        "q9 q9  q9  q9"
+        "q10    q10 q10 q10"
+        "q11    q11 q12 q12"
+        "q11    q11 q12 q12"
+        "q13    q13 q12 q12"
+        "q14    q14 q12 q12"
+        "qq12   qq12    qq12    qq12"
+        "qq13   qq13    qq13    qq13"
+}
+
+
+#IMkmodellen{
+    grid-area: q8;
+    text-align: left;
+}
+
+
+#internatio{
+    grid-area: q9;
+    text-align: left;
+}
+
+
+#klassiker{
+    grid-area: q10;
+    text-align: left;
+}
+
+#staarbag{
+    grid-area: q11;
+    text-align: left;
+}
+
+#eksimkmodel{
+    grid-area: q13;
+    text-align: left;
+}
+
+#internaf{
+    grid-area: q14;
+    text-align: left;
+}
+    
+      
+#transmi{
+        grid-area: qq12;
+    text-align: left;
+    }
+#kanyle{
+    grid-area: qq13;
+    text-align: left;
+        
+    }
+
+/****billeder*****/
+#kotler {
+    width: 600px;
+    height: auto;
+    grid-area: q5;
+}
+
+#IMK {
+    width: 500px;
+    height: auto;
+    grid-area: q12;
+}
+
+    
+/*************Design Thinking*******************/
+#designthinking{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "q15    q15 q15 q15"
+        "q16    q16 q16 q16"
+        "q17    q17 q18 q18"
+        "q17    q17 q18 q18"
+}
+
+#designthi{
+    grid-area: q15;
+}
+
+#hjernehalv{
+    grid-area: q16;
+    text-align: left;
+}
+
+#hjernen{
+    grid-area: q17;
+    text-align: left;
+}
+
+
+/****Divergent grid*****/
+
+#divergentvs{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q19    q19 q19 q19"
+        "q20    q20 q22 q22"
+        "q20    q20 q22 q22"
+}
+
+#konvergent{
+    grid-area: q19;
+    text-align: left;
+}
+
+#dvsk{
+    grid-area: q20;
+    text-align: left;
+}
+
+
+/*****billeder*****/
+#hjernehalvdel {
+    width: 500px;
+    height: auto;
+    grid-area: q18;
+}
+
+#divergent {
+    width: 500px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: q22;
+    
+}
+    
+    
+/************************Produktionsmodeller***************************/
+#produktionsmodel{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q23    q23 q23 q23"
+        "q29    q29 q29 q29"
+        "q30    q30 q30 q30"
+        "q31    q31 q31 q31"
+        "q24    q24 q24 q24"
+        "q25    q25 q25 q25"
+        "q26    q26 q26 q26"
+        "q27    q27 q27 q27"
+        "q28    q28 q28 q28"
+     
+    
+}
+
+#produktions{
+    grid-area: q23;
+}
+
+#dennye{
+    grid-area: q24;
+    text-align: left;
+}
+
+#opfundetaf{
+    grid-area: 25;
+    text-align: left;
+}
+
+
+#praemis{
+    grid-area:  26;
+    text-align: left;
+}
+
+
+#erenramme{
+    grid-area: 27;
+    text-align: left;
+}
+
+#despoers{
+    grid-area: q29;
+    text-align: left;
+}
+
+#hvadermaal{
+    grid-area: q30;
+     text-align: left;
+}
+
+#spoergshvord{
+    grid-area: q31;
+     text-align: left;
+}
+
+/*****billede*****/
+#bollemodellen {
+    width: 400px;
+    height: auto;
+    grid-area:  28;
+}
+
+/*****************informationsarkitektur***********************/
+#informationsarki{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q32    q32 q32 q32"
+        "q33    q33  q33    q33"
+}
+
+#arkitektur{
+    grid-area: q32;
+}
+
+
+#websitebesaar{
+    grid-area: q33;
+    text-align: left;
+}
+
+
+/*******organisering grid********/
+
+#orginasering{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q34    q34 q34 q34"
+        "q35    q35 q35 q35"
+        "q36    q36 q36 q36"
+        "q37    q37 q37 q37"
+        "q38    q38 q38 q38"
+}
+
+
+
+#afinformation{
+    grid-area: q34;
+    text-align: left;
+}
+
+#vedorganiseri{
+    grid-area: q35;
+    text-align: left;
+}
+
+#url{
+    grid-area: q36;
+    text-align: left;
+}
+
+#nywebsite{
+    grid-area: q37;
+    text-align: left;
+}
+
+#talemed{
+    grid-area: q38;
+    text-align: left;
+}
+
+
+/*********sekcvens grid**********/
+#sekven{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q39    q39 q39 q39"
+        "q40    q40 q41 q41"
+        "q40    q40 q41 q41"
+}
+
+#sekve{
+    grid-area: q39;
+    text-align: left;
+}
+
+#sekvenstrukt{
+    grid-area: q40;
+    text-align: left;
+}
+
+/*****Hierarki grid*****/
+#hierarkii{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q42    q42 q42 q42"
+        "q43    q43 q44 q44"
+        "q43    q43 q44 q44"
+}
+
+#hiera{
+   grid-area: q42; 
+    text-align: left;
+}
+
+#hierastruktur{
+    grid-area: q43;
+    text-align: left;
+}
+
+/*****webstruktur grid****/
+
+#webstrukture{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q45    q45 q45 q45"
+        "q46    q46 q47 q47"
+        "q49    q49 q47 q47"
+        "q49    q49 .   ."
+        
+}
+
+
+#webstruk{
+    grid-area: q45;
+    text-align: left;
+}
+
+
+#medwebstruk{
+    grid-area: q46;
+    text-align: left;
+}
+
+
+
+#visualiseringsvaer{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q50    q50 q50 q50"
+        "q51    q51 q52 q52"
+        "q51    q51 q52 q52"
+}
+
+
+#visualiserings{
+    grid-area: q50;
+    text-align: left;
+}
+
+
+
+#naarmanstaar{
+    grid-area: q51;
+    text-align: left;
+}
+
+
+
+#navigeringsde{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q53    q53 q53 q53"
+        "q54    q54 q54 q54"
+        "q55    q55 q55 q55"
+        "q56    q56 q56 q56"
+        "q57    q57 q57 q57"
+}
+
+#navigering{
+    grid-area: q53;
+    text-align: left;
+}
+
+#navigdesign{
+    grid-area: q54;
+    text-align: left;
+}
+
+#orienter{
+    grid-area: q55;
+    text-align: left;
+}
+
+#gobal{
+    grid-area: q56;
+    text-align: left;
+}
+
+#globalnavig{
+    grid-area: q57;
+    text-align: left;
+}
+
+
+
+
+/*****øvelse grid*****/
+#oevlse{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "q58    q58 q58 q58"
+        "q59    q59 q59 q59"
+}
+
+#oevl{
+    grid-area: q58;
+    text-align: left;
+}
+
+#websitezal{
+    grid-area: q59;
+    text-align: left;
+}
+
+/*******billeder******/
+#sekvens{
+    width: 500px;
+    height: auto;
+    padding-bottom: 5px;
+    grid-area: q41;
+}
+
+#hierarki{
+    width: 500px;
+    height: auto;
+    margin-left: 10px;
+    grid-area: q44;
+}
+
+#webstruktur{
+    width: 500px;
+    height: auto;
+    margin-bottom: 5px;
+    grid-area: q47;
+}
+
+#allestru{
+    width: 500px;
+    height: auto;
+    margin-right: 10px;
+    grid-area: q49;
+    
+}
+
+#wireframe{
+    width: 550px;
+    height: auto;
+    grid-area: q52;
+}
+    
+/****************Ide generering********************/
+#idegenerering{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        ".      q60 q60 ."
+        "q61    q61 q61 q61"
+}
+
+#idegener{
+    grid-area: q60;
+    text-align: center;
+   
+}
+
+#ideudvikling{
+    grid-area: q61;
+    text-align: center;
+    
+}
+
+
+/*********Associations********/
+#association{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "q62    q62 q62 q62"
+        "q63    q63 q63 q63"
+        "q64    q64 q64 q64"
+        "q65    q65 q65 q65"
+        
+}
+
+#associa{
+    grid-area: q62;
+    text-align: left;
+}
+
+
+#metodengaar{
+    grid-area: q63;
+    text-align: left;
+}
+
+
+#grundregler{
+    grid-area: q64;
+    text-align: left;
+}
+
+
+#fastsaat{
+    grid-area: q65;
+    text-align: left;
+}
+
+/*****post it metode******/
+
+#postitmetode{
+   display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "q66    q66 q66 q66"
+        "q67    q67 q67 q67"
+        "q68    q68 q68 q68"
+        "q69    q69 q69 q69"
+}
+
+#postit{
+    grid-area: q66;
+    text-align: left;
+}
+
+#erengod{
+    grid-area: q67;
+    text-align: left;
+}
+
+
+#grundregl{
+    grid-area: q68;
+    text-align: left;
+}
+
+#lugud{
+    grid-area: q69;
+    text-align: left;
+}
+
+/********Brainstorm*******/
+
+#brainstormee{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "q70    q70 q70 q70"
+        "q71    q71 q71 q71"
+        "q72    q72 q72 q72"
+        "q73    q73 q73 q73"
+}
+
+
+#brainstor{
+    grid-area: q70;
+    text-align: left;
+}
+
+
+#brainstormeren{
+    grid-area: q71;
+    text-align: left;
+}
+
+
+#grundreg{
+    grid-area: q72;
+    text-align: left;
+}
+
+
+#defineremnet{
+    grid-area: q73;
+    text-align: left;
+}
+
+/*********mindmap**********/
+
+#mindmapp{
+   display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:  
+        "q74    q74 q74 74"
+        "q75    q75 q76 q76"
+        "q75    q75 q76 q76"
+}
+
+#mindma{
+    grid-area: q74;
+    text-align: left;
+}
+
+#tonubuzan{
+    grid-area: q75;
+    text-align: left;
+}
+
+
+/******cirkelskrivning*******/
+
+#cirkelskrivning{
+   display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "t0 t0  t0  t0"
+        "t1 t1  t1  t1"
+        "t2 t2  t2  t2"
+        "t3 t3  t3  t3"
+        
+}
+
+#cirkelskriv{
+    grid-area: t0;
+    text-align: left;
+}
+
+#cirkelskri{
+    grid-area: t1;
+    text-align: left;
+}
+
+#grundre{
+    grid-area: t2;
+    text-align: left;
+}
+
+#skrivetprob{
+    grid-area: t3;
+    text-align: left;
+}
+/*****billeder*****/
+#eksmindmap{
+    width: 320px;
+    height: auto;
+    grid-area: q76;
+}
+    
+    
+/******************************Journalistiske**************************/
+/*******journalistiske grid******/
+#mediejournabegreber{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:
+        "t4 t4  t4"
+        "t5 t5  t5"
+        "t6 t6  t6"
+}
+
+#journalistiske{
+    grid-area: t4;
+}
+
+
+#indenfortekst{
+    grid-area: t5;
+}
+
+
+#vaesentlig{
+    grid-area: t6;
+}
+
+
+/*******artiklen******/
+
+#artiklen{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t7 t7  t7  t7"
+        "t8 t8  t10  t10"
+        "t9 t9  t10  t10"
+        "t9     t9 t10 t10"
+        "t14    t14 t14 t14"
+        "t11    t11 t12 t12"
+        "t11    t11 t12 t12"
+        "t13    t13 t12 t12"
+        
+}
+
+#artikel{
+    grid-area: t7;
+    text-align: left;
+}
+
+#klassiskeartik{
+    grid-area: t8;
+    text-align: left;
+}
+
+
+#nyhedstre{
+    grid-area: t9;
+    text-align: left;
+}
+
+
+#hvemhvad{
+    grid-area: t11;
+    text-align: left;
+}
+
+
+#produktelleremne{
+    grid-area: t13;
+    text-align: left;
+}
+
+
+#subjeeartik{
+    grid-area: t14;
+    text-align: left;
+}
+
+
+/********brochuren*********/
+#brochuren{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t15    t15 t15 t15"
+        "t16    t16 t16 t16"
+        "t17    t17 t17 t17"
+        "t18    t18 t18 t18"
+}
+
+#brochur{
+    grid-area: t15;
+    text-align: left;
+}
+
+#kortergodt{
+    grid-area: t16;
+    text-align: left;
+}
+
+#opsaatningafbro{
+    grid-area: t17;
+    text-align: left;
+}
+
+#overformaal{
+    grid-area: t18;
+    text-align: left;
+}
+
+
+/*****Annoncen*****/
+
+#annoncen{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t19    t19 t19 t19"
+        "t20    t20 t21 t21"
+        "t20    t20 t21 t21"
+}
+
+
+#annonce{
+    grid-area: t19;
+    text-align: left;
+}
+
+
+#enannonce{
+    grid-area: t20;
+    text-align: left;
+}
+
+
+
+/*******tekst til web grid*******/
+
+#tekstertilweb{
+   display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t22    t22 t22 t22"
+        "t23    t23 t23 t23"
+}
+
+#tekstweb{
+    grid-area: t22;
+    text-align: left;
+}
+
+
+#medtekster{
+    grid-area: t23;
+    text-align: left;
+}
+
+/******Retorisk kommunikation grid*******/
+#retoriskkommuni{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t24    t24 t24 t24"
+        "t25    t25 t25 t25"
+        "t26    t26 t26 t26"
+}
+
+
+#retoriskkommu{
+    grid-area: t24;
+    text-align: left;
+}
+
+#vedbrugafp{
+    grid-area: t25;
+    text-align: left;
+}
+
+#pathos{
+    grid-area: t26;
+    text-align: left;
+}
+
+/****typografisk semiotik grid****/
+
+#typografisemiotik{
+  display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:  
+        "t27    t27 t27 t27"
+        "t28    t28 t28 t28"
+}
+
+
+#typosemiotik{
+    grid-area: t27;
+    text-align: left;
+}
+
+
+#mankanse{
+    grid-area: t28;
+    text-align: left;
+}
+
+/******billeder******/
+ 
+#nyhedstrekant{
+    width: 320px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: t10;
+}
+
+#kommoden{
+     width: 320px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: t12;
+    
+}
+
+#aida{
+     width: 320px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: t21;
+}
+
+    
+/************************************visualiseringsværktæj********************************/
+#roughsketcing{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t30    t30 t30 t30"
+        "t31    t31 t32 t32"
+        "t31    t31 t32 t32"
+}
+
+#roughske{
+    grid-area: t30;
+    text-align: left;
+}
+
+#sketching{
+    grid-area: t31;
+    text-align: left;
+}
+
+/*******materialer grid*********/
+
+
+#materialer{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t33    t33 t33 t33"
+        "t34    t34 t34 t34"
+        "t35    t35 t35 t35"
+        "t39    t37 t38 t36"
+        "t39    t37 t38 t36"
+     
+       
+}
+
+#material{
+    grid-area: t33;
+    text-align: left;
+}
+
+#laveroughsket{
+    grid-area: t34;
+    text-align: left;
+}
+
+#tegneoevlse{
+    grid-area: t35;
+    text-align: left;
+}
+/*******billeder******/
+#Tandpasta {
+    width: 300px;
+    height: auto;
+    display: block;
+    grid-area: t36;
+    transform: rotate(90deg);
+}
+
+#Paere {
+    width: 250px;
+    height: auto;
+    grid-area: t37;
+    
+}
+
+#Dame {
+    width: 300px;
+    height: auto;
+    grid-area: t38;
+}
+
+#Typografi {
+    width: 250px;
+    height: auto;
+    display: block;
+    grid-area: t39;
+}
+
+#Rikke {
+    width: 300px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: t32;
+}
+
+/*********************storytelling**************************/
+#storytelling{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:  
+        "t40    t40 t40 t40"
+        "t41    t41 t41 t41"
+        "t42    t42 t42 t42"
+}
+
+#storytel{
+    grid-area: t40;
+    text-align: center;
+}
+
+#isbjerg{
+    grid-area: t41;
+    text-align: left;
+}
+
+#vaeropmaerk{
+    grid-area: t42;
+    text-align: left;
+}
+
+/*****historiefortællerns værktøjskasse grid*****/
+
+#historiefortaeller{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t43    t43 t43 t43"
+        "t44    t44 t44 t44"
+        "t45    t45 t45 t45"
+        "t46    t46 t46 t46"
+        "t47    t47 t47 t47"
+        "t48    t48 t48 t48"
+        "t49    t49 t49 t49"
+        
+}
+
+
+#historiefortael{
+    grid-area: t43;
+    text-align: left;
+}
+
+
+#kommertilvarktoej{
+    grid-area: t44;
+    text-align: left;
+}
+
+
+#budskabb{
+    grid-area: t45;
+    text-align: left;
+}
+
+
+#konfliktt{
+    grid-area: t46;
+    text-align: left;
+}
+
+
+#fcbmodellen{
+    grid-area: t47;
+    text-align: left;
+}
+
+
+#rollefordeling{
+    grid-area: t48;
+    text-align: left;
+}
+
+#handlinge{
+    grid-area: t49;
+    text-align: left;
+}
+
+
+/*********arketyperne*********/
+
+#arketyperne{
+     display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t50    t50 t50 t50"
+        "t51    t51 t51 t51"
+        "t52    t52 t52 t52"
+        "t53    t53 t53 t53"
+        "t54    t54 t54 t54"
+        "t55    t55 t55 t55"
+        "t56    t56 t56 t56"
+        "t57    t57 t57 t57"
+        "t58    t58 t58 t58"
+        "t59    t59 t59 t59"
+        "t60    t60 t60 t60"
+        "t61    t61 t61 t61"
+        "t62    t62 t62 t62"
+        "t63    t63 t63 t63"
+        "t64    t64 t64 t64"
+        "t65    t65 t65 t65"
+}
+
+
+#arketyper{
+    grid-area: t50;
+    text-align: left;
+}
+
+
+#cbooker{
+      grid-area: t51;
+    text-align: left;
+}
+
+
+#besejring{
+      grid-area: t52;
+    text-align: left;
+}
+
+#uhyret{
+      grid-area: t53;
+    text-align: left;
+}
+
+#fralaser{
+      grid-area: t54;
+    text-align: left;
+}
+
+#hcandersen{
+      grid-area: t55;
+    text-align: left;
+}
+
+#farefulde{
+      grid-area: t56;
+    text-align: left;
+}
+
+#heltenrejser{
+      grid-area: t57;
+    text-align: left;
+}
+
+
+#rejsentilen{
+      grid-area: t58;
+    text-align: left;
+}
+
+
+#andenverden{
+      grid-area: t59;
+    text-align: left;
+}
+
+
+#komedie{
+      grid-area: t60;
+    text-align: left;
+}
+
+
+#modernekomedie{
+      grid-area: t61;
+    text-align: left;
+}
+
+#tragedie{
+      grid-area: t62;
+    text-align: left;
+}
+
+
+#entragedie{
+      grid-area: t63;
+    text-align: left;
+}
+
+
+#genfoedsel{
+      grid-area: t64;
+    text-align: left;
+}
+
+#heltenforbandet{
+      grid-area: t65;
+    text-align: left;
+}
+    
+/**************************visuel kommunikation******************************/
+#visuelkommunika{
+      display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t66    t66 t66 t66"
+        "t67    t67 t67 t67"
+        "t89    t89 t89 t89"
+}
+
+#visuelkommuni{
+    grid-area: t66;
+    text-align: center;
+}
+
+#film{
+    grid-area: 67;
+    text-align: left;
+}
+
+#arbjedemedfilm{
+    grid-area: t89;
+    text-align: left;
+}
+
+
+/**************************/
+#karakterr{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t68    t68 t68 t68"
+        "t69    t69 t69 t69"
+}
+
+
+#konflikttt{
+    grid-area: t68;
+    text-align: left;
+}
+
+
+#livsstill{
+    grid-area: t69;
+    text-align: left;
+}
+
+/********effekter og stilart grid*********/
+#efeekterr{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t70    t70 t70 t70"
+        "t71    t71 t71 t70"
+}
+
+
+#stilarter{
+    grid-area: t70;
+    text-align: left;
+}
+
+#fastlagtfrastar{
+    grid-area: t71;
+    text-align: left;
+}
+
+
+/*******kropssprog grid*******/
+
+#kropssprog{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t72    t72 t72 t72"
+        "t73    t73 t73 t73"
+}
+
+#kropsspro{
+    grid-area: t72;
+    text-align: left;
+}
+
+#vibliverover{
+    grid-area: t73;
+    text-align: left;
+}
+
+
+/*******lyd og musik grid*******/
+#lyd{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t74    t74 t74 t74"
+        "t75    t75 t75 t75"
+}
+
+#musik{
+    grid-area: t74;
+    text-align: left;
+}
+
+#logm{
+    grid-area: t75;
+    text-align: left;
+}
+
+/*****storyboard grid*********/
+
+#storyboard{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t76    t76 t76 t76"
+        "t77    t77 t78 t78"
+        "t77    t77 t78 t78"
+}
+
+
+#storyboar{
+    grid-area: t76;
+    text-align: left;
+}
+
+
+#raekketegninger{
+    grid-area: t77;
+    text-align: left;
+}
+
+/**********motiv**********/
+
+#motiv{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t79    t79 t79 t79"
+        "t80    t80 t80 t80"
+}
+
+#moti{
+    grid-area: t79;
+    text-align: left;
+}
+
+#vaelgermotiv{
+    grid-area: t80;
+    text-align: left;
+}
+
+/*********farveholdning grid*****/
+
+#farveholdning{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t81    t81 t81 t81"
+        "t82    t82 t82 t82"
+}
+
+
+#farvehold{
+    grid-area: t81;
+    text-align: left;
+}
+
+
+#farverformerog{
+    grid-area: t82;
+    text-align: left;
+}
+
+
+/**************moodboard*********/
+#moodboardd{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:
+        "t83    t83 t83 t83"
+        "t84    t84 t85 t85"
+        "t84    t84 t85 t85"
+}
+
+#moodb{
+    grid-area: t83;
+    text-align: left;
+}
+
+#moodboa{
+    grid-area: t84;
+    text-align: left;
+}
+
+/**********billder***********/
+#storyboard1{
+    width: 380px;
+    height: auto;
+    grid-area: t78;
+}
+
+#moodboard{
+    width: 380px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: t85;
+    
+}
+
+    
+/******************************************************************************************************/
+/********************************************Projekter*************************************************/
+/******************************************************************************************************/
+
+
+/*******prototype*********/
+/*************************/
+
+
+#projekt1{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "p1 p1  p1  p1"
+        "p2 p2  p2  p2"
+        "p3 p3  p3  p3"
+        "p4 p4  p4  p4"
+        "p5 p5  p5  p5"
+}
+
+#protprojekt{
+    grid-area: p1;
+    text-align: center;
+    
+}
+
+
+#gruppe{
+    grid-area: p2;
+    text-align: left;
+}
+
+
+#mobilsite{
+    grid-area: p3;
+    text-align: left;
+}
+
+
+#faser{
+    grid-area: p4;
+    text-align: left;
+}
+
+
+#startede{
+    grid-area: p5;
+    text-align: left;
+}
+
+
+
+#Fagfolkinterview{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas:   
+        "inter1 inter1  inter1  inter1"
+        "inter2 inter2  inter2  inter2"
+        "inter3 inter3  inter3  inter3"
+        "inter4 inter4  inter6  inter6"
+        "inter5 inter5  inter6  inter6"
+        "inter5 inter5  inter6  tiner6"
+        
+     
+}
+
+#interviews{
+    grid-area: inter1;
+    text-align: left;
+}
+
+#fagfolk{
+    grid-area: inter2;
+    text-align: left;
+}
+
+#fagspoersmaal{
+     grid-area: inter3;
+    text-align: left;
+}
+
+#goerdetselv{
+    grid-area: inter4;
+    text-align: left;
+   
+}
+
+#goerdet{
+    grid-area: inter5;
+    text-align: left;
+}
+
+
+
+#tegningprototype {
+    width: 300px;
+    height: auto;
+    grid-area: inter6;
+    display: block; 
+}
+
+
+/*******************************OnePage*******************/
+/*********************************************************/
+
+/*******grid********/
+#onepageprojekt{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "u  u   u   u"
+        "u0 u0  u0  u0"
+}
+
+#onepagepro{
+    grid-area: u;
+    text-align: center;
+}
+
+#christina{
+    grid-area: u0;
+    text-align: left;
+}
+
+/*******2ugers projekt grid*******/
+
+#onep{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "u1 u1  u1  u1"
+        "u2 u2  u2  u2"
+        "u3 u3  u3  u3"
+        "u4 u4  u4  u4"
+        "u5 u5  u5  u5"
+}
+
+#tougers{
+    grid-area: u1;
+    text-align: left;
+}
+
+#researchog{
+    grid-area: u2;
+    text-align: left;
+}
+
+#projektetab{
+    grid-area: u3;
+    text-align: left;
+}
+
+#implemen{
+    grid-area: u4;
+    text-align: left;
+}
+
+#impleskitsen{
+    grid-area: u5;
+    text-align: left;
+}
+
+/*****vi startede grid*****/
+
+#vistartedevore{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr,1fr,1fr, 1fr;
+    grid-template-areas: 
+        "u6 u6  u6  u6"
+        "u7 u7  u7  u7"
+        "u8 u8  u8  u8"
+        "u9 u9  u9  u9"
+        "u10    u10 u10 u10"
+        "u11    u11 u11 u11"
+        
+}
+
+#voresprojekt{
+    grid-area: u6;
+    text-align: left;
+}
+
+#foretogfield{
+    grid-area: u7;
+    text-align: left;
+}
+
+
+#illufotostil{
+    grid-area: u8;
+    text-align: left;
+}
+
+
+/********billeder******/
+#foestescrum {
+    width: 300px;
+    height: auto;
+    padding-bottom: 10px;
+    grid-area: u9;
+}
+
+#blaabaermoodboard {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    grid-area: u10;
+}
+
+#emilieogkevin {
+    width: 380px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    grid-area: u11;
+}
+
+    
+/************************************************************/
+/**********************Refleksioner**************************/
+/************************************************************/
+
+#Refleksioner{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: 
+        "w0 w0  w0  w0"
+        "w1 w1  w1  w1"
+        "w2 w2  w2  w2"
+        "w3 w3  w3  w3"
+        "w4 w4  w4  w4"
+        "w5 w6  w7  ."
+        "w5 w6  w7  ."
+        }
+
+#refleksion{
+    grid-area: w0;
+}
+
+#proce{
+     grid-area: w1;
+    text-align: left;
+}
+
+#detfoeste{
+     grid-area: w2;
+     text-align: left;
+}
+
+#Afrunding{
+     grid-area: w3;
+    text-align: left;
+}
+
+#anderledes{
+     grid-area: w4;
+    text-align: left;
+}
+    /*****************billeder***********/
+
+    #forsidee{
+        display: block;
+        width: 400px;
+        height: auto;
+        margin-right: 5px;
+        grid-area: w5;
+    
+    }
+    
+    #intromobi{
+        display: block;
+        width: 400px;
+        height: auto;
+        margin-right: 5px;
+        grid-area: w6;
+    }
+    
+    #indhotabl{
+        display: block;
+        width: 400px;
+        height: auto;
+        grid-area: w7;
+    }
+    
