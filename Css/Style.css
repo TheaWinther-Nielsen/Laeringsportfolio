@@ -3269,16 +3269,19 @@ footer {
 
 #journalistiske{
     grid-area: t4;
+    text-align: left;
 }
 
 
 #indenfortekst{
     grid-area: t5;
+     text-align: left;
 }
 
 
 #vaesentlig{
     grid-area: t6;
+     text-align: left;
 }
 
 
@@ -7597,11 +7600,13 @@ iframe{
 
 #indenfortekst{
     grid-area: t5;
+     text-align: left;
 }
 
 
 #vaesentlig{
     grid-area: t6;
+    text-align: left;
 }
 
 
